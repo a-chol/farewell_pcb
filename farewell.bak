@@ -20,7 +20,7 @@ U 1 1 5C9FFB86
 P 2975 6675
 F 0 "MX1" H 3061 6892 60  0000 C CNN
 F 1 "MX-1U" H 3061 6818 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 6650 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 2950 6650 60  0001 C CNN
 F 3 "" H 2950 6650 60  0001 C CNN
 	1    2975 6675
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5CA014D4
 P 3925 6675
 F 0 "MX2" H 4011 6892 60  0000 C CNN
 F 1 "MX-1U" H 4011 6818 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3900 6650 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 3900 6650 60  0001 C CNN
 F 3 "" H 3900 6650 60  0001 C CNN
 	1    3925 6675
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5CA01EDD
 P 4975 6675
 F 0 "MX3" H 5061 6892 60  0000 C CNN
 F 1 "MX-1U" H 5061 6818 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4950 6650 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 4950 6650 60  0001 C CNN
 F 3 "" H 4950 6650 60  0001 C CNN
 	1    4975 6675
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5CA0561D
 P 2975 5800
 F 0 "MX4" H 3061 6017 60  0000 C CNN
 F 1 "MX-1U" H 3061 5943 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 5775 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 2950 5775 60  0001 C CNN
 F 3 "" H 2950 5775 60  0001 C CNN
 	1    2975 5800
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 1 1 5CA06044
 P 3925 5800
 F 0 "MX5" H 4011 6017 60  0000 C CNN
 F 1 "MX-1U" H 4011 5943 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3900 5775 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 3900 5775 60  0001 C CNN
 F 3 "" H 3900 5775 60  0001 C CNN
 	1    3925 5800
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 1 1 5CA06743
 P 4975 5800
 F 0 "MX6" H 5061 6017 60  0000 C CNN
 F 1 "MX-1U" H 5061 5943 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4950 5775 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 4950 5775 60  0001 C CNN
 F 3 "" H 4950 5775 60  0001 C CNN
 	1    4975 5800
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5CA07858
 P 2975 4800
 F 0 "MX7" H 3061 5017 60  0000 C CNN
 F 1 "MX-1U" H 3061 4943 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2950 4775 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 2950 4775 60  0001 C CNN
 F 3 "" H 2950 4775 60  0001 C CNN
 	1    2975 4800
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 5CA0852F
 P 3925 4775
 F 0 "MX8" H 4011 4992 60  0000 C CNN
 F 1 "MX-1U" H 4011 4918 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3900 4750 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 3900 4750 60  0001 C CNN
 F 3 "" H 3900 4750 60  0001 C CNN
 	1    3925 4775
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 5CA08E22
 P 4975 4750
 F 0 "MX9" H 5061 4967 60  0000 C CNN
 F 1 "MX-1U" H 5061 4893 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4950 4725 60  0001 C CNN
+F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 4950 4725 60  0001 C CNN
 F 3 "" H 4950 4725 60  0001 C CNN
 	1    4975 4750
 	1    0    0    -1  
@@ -281,11 +281,9 @@ Wire Wire Line
 	5475 2125 5475 2525
 Wire Wire Line
 	4100 2125 4100 2500
-Text GLabel 2700 1750 2    50   Input ~ 0
-E_G1
-Text GLabel 1100 2250 0    50   Input ~ 0
+Text GLabel 2500 2350 2    50   Input ~ 0
 E2A
-Text GLabel 1100 2350 0    50   Input ~ 0
+Text GLabel 2500 2250 2    50   Input ~ 0
 E2B
 Text GLabel 2500 2150 2    50   Input ~ 0
 E1A
@@ -345,15 +343,15 @@ Text GLabel 4850 5025 2    50   Input ~ 0
 RE2S1
 Text GLabel 5275 4250 2    50   Input ~ 0
 RE2S2
-Text GLabel 1100 2650 0    50   Input ~ 0
-COL2
 Text GLabel 1100 2550 0    50   Input ~ 0
+COL2
+Text GLabel 1100 2650 0    50   Input ~ 0
 COL1
-Text GLabel 1100 2450 0    50   Input ~ 0
+Text GLabel 1100 2750 0    50   Input ~ 0
 COL0
 Text GLabel 5475 2125 1    50   Input ~ 0
 E_G2
-Text GLabel 1100 1850 0    50   Input ~ 0
+Text GLabel 850  1850 0    50   Input ~ 0
 E_G2
 Wire Wire Line
 	3625 6975 4675 6975
@@ -370,84 +368,66 @@ Wire Wire Line
 	3625 5375 4675 5375
 Wire Wire Line
 	2675 5375 3625 5375
-Wire Wire Line
-	2500 1750 2600 1750
-$Comp
-L Connector_Generic:Conn_01x01 RST1
-U 1 1 5CA633F3
-P 3000 1850
-F 0 "RST1" H 3080 1892 50  0000 L CNN
-F 1 "Conn_01x01" H 3080 1801 50  0000 L CNN
-F 2 "pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3000 1850 50  0001 C CNN
-F 3 "~" H 3000 1850 50  0001 C CNN
-	1    3000 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 GND_RST1
 U 1 1 5CA6404D
-P 2800 1600
-F 0 "GND_RST1" H 2880 1642 50  0000 L CNN
-F 1 "Conn_01x01" H 2880 1551 50  0000 L CNN
-F 2 "pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2800 1600 50  0001 C CNN
-F 3 "~" H 2800 1600 50  0001 C CNN
-	1    2800 1600
-	1    0    0    -1  
+P 850 1650
+F 0 "GND_RST1" H 930 1692 50  0000 L CNN
+F 1 "Conn_01x01" H 930 1601 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 850 1650 50  0001 C CNN
+F 3 "~" H 850 1650 50  0001 C CNN
+	1    850  1650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	2800 1850 2500 1850
-Wire Wire Line
-	2600 1750 2600 1600
-Connection ~ 2600 1750
-Wire Wire Line
-	2600 1750 2700 1750
 $Comp
 L sparkfun-electromech:JOYSTICKPTH JOY1
 U 1 1 5CA9DB90
 P 7400 2800
 F 0 "JOY1" H 7628 2796 50  0000 L CNN
 F 1 "JOYSTICKPTH" H 7628 2705 50  0000 L CNN
-F 2 "JOYSTICK" H 7430 2950 20  0001 C CNN
+F 2 "sparkfun-electromech:JOYSTICK" H 7430 2950 20  0001 C CNN
 F 3 "" H 7400 2800 50  0001 C CNN
 	1    7400 2800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 SCL
+L Connector_Generic:Conn_01x01 SCL1
 U 1 1 5CA9FDA0
 P 900 2150
-F 0 "SCL" H 980 2192 50  0000 L CNN
+F 0 "SCL1" H 980 2192 50  0000 L CNN
 F 1 "Conn_01x01" H 980 2101 50  0000 L CNN
-F 2 "pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 900 2150 50  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 900 2150 50  0001 C CNN
 F 3 "~" H 900 2150 50  0001 C CNN
 	1    900  2150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 SDA
+L Connector_Generic:Conn_01x01 SDA1
 U 1 1 5CAA2E38
 P 900 2050
-F 0 "SDA" H 980 2092 50  0000 L CNN
+F 0 "SDA1" H 980 2092 50  0000 L CNN
 F 1 "Conn_01x01" H 980 2001 50  0000 L CNN
-F 2 "pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 900 2050 50  0001 C CNN
+F 2 "keyboard_parts:PIN_1" H 900 2050 50  0001 C CNN
 F 3 "~" H 900 2050 50  0001 C CNN
 	1    900  2050
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 EXT
+L Connector_Generic:Conn_01x01 EXT1
 U 1 1 5CAA7D24
-P 900 2750
-F 0 "EXT" H 980 2792 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2701 50  0000 L CNN
-F 2 "pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 900 2750 50  0001 C CNN
-F 3 "~" H 900 2750 50  0001 C CNN
-	1    900  2750
+P 900 2350
+F 0 "EXT1" H 980 2392 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2301 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 900 2350 50  0001 C CNN
+F 3 "~" H 900 2350 50  0001 C CNN
+	1    900  2350
 	-1   0    0    1   
 $EndComp
-Text GLabel 2500 2250 2    50   Input ~ 0
+Text GLabel 1100 2250 0    50   Input ~ 0
 ADC1
-Text GLabel 2500 2350 2    50   Input ~ 0
+Text GLabel 1100 2450 0    50   Input ~ 0
 ADC2
 Text GLabel 2500 1950 2    50   Input ~ 0
 VCC
@@ -456,9 +436,9 @@ VCC
 Text GLabel 7000 2800 0    50   Input ~ 0
 VCC
 Text GLabel 7000 2600 0    50   Input ~ 0
-E_G1
+E_G2
 Text GLabel 7000 3000 0    50   Input ~ 0
-E_G1
+E_G2
 Text GLabel 7000 2500 0    50   Input ~ 0
 ADC1
 Text GLabel 7000 2900 0    50   Input ~ 0
@@ -478,4 +458,21 @@ Text GLabel 3625 5000 0    50   Input ~ 0
 JOY_SW_1
 Text GLabel 4225 4300 2    50   Input ~ 0
 JOY_SW_2
+Wire Wire Line
+	1100 1850 850  1850
+Text GLabel 2500 1750 2    50   Input ~ 0
+E_G1
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5CB34881
+P 3000 1850
+F 0 "SW?" H 3000 2135 50  0000 C CNN
+F 1 "SW_Push" H 3000 2044 50  0000 C CNN
+F 2 "" H 3000 2050 50  0001 C CNN
+F 3 "~" H 3000 2050 50  0001 C CNN
+	1    3000 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 1850 2    50   Input ~ 0
+E_G1
 $EndSCHEMATC
