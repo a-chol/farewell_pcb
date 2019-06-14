@@ -296,26 +296,10 @@ ROW1
 Wire Wire Line
 	4675 4750 4675 5025
 Wire Wire Line
-	3275 4800 3275 5800
-Connection ~ 3275 4800
-Wire Wire Line
 	4675 6100 3625 6100
 Connection ~ 3625 6100
 Wire Wire Line
 	2675 6975 3625 6975
-Wire Wire Line
-	4225 6675 4225 5800
-Connection ~ 4225 5800
-Wire Wire Line
-	5275 5800 5275 6675
-Wire Wire Line
-	5275 4750 5275 5800
-Connection ~ 5275 5800
-Wire Wire Line
-	5275 4750 5275 4150
-Connection ~ 5275 4750
-Wire Wire Line
-	3275 4175 3275 4800
 $Comp
 L promicro:ProMicro U1
 U 1 1 5CB5D06D
@@ -330,9 +314,6 @@ $EndComp
 Connection ~ 2675 6100
 Wire Wire Line
 	2675 6100 3625 6100
-Connection ~ 3275 5800
-Wire Wire Line
-	3275 5800 3275 6675
 Wire Wire Line
 	2000 6100 2675 6100
 Text GLabel 4200 3100 3    50   Input ~ 0
@@ -382,12 +363,12 @@ $EndComp
 Wire Wire Line
 	2800 1850 2500 1850
 $Comp
-L sparkfun-electromech:JOYSTICKPTH JOY1
+L sparkfun-electromech:JOYSTICK_THUMB JOY1
 U 1 1 5CA9DB90
 P 7400 2800
 F 0 "JOY1" H 7628 2796 50  0000 L CNN
 F 1 "JOYSTICKPTH" H 7628 2705 50  0000 L CNN
-F 2 "sparkfun-electromech:JOYSTICK" H 7430 2950 20  0001 C CNN
+F 2 "Switches:JOYSTICK" H 7430 2950 20  0001 C CNN
 F 3 "" H 7400 2800 50  0001 C CNN
 	1    7400 2800
 	1    0    0    -1  
@@ -447,11 +428,6 @@ Text GLabel 7000 3200 0    50   Input ~ 0
 JOY_SW_1
 Text GLabel 7000 3300 0    50   Input ~ 0
 JOY_SW_2
-Connection ~ 4225 4775
-Wire Wire Line
-	4225 4775 4225 4025
-Wire Wire Line
-	4225 4775 4225 5800
 Wire Wire Line
 	3625 5075 3625 4775
 Text GLabel 3625 5000 0    50   Input ~ 0
@@ -475,4 +451,10 @@ F 3 "~" H 3000 2050 50  0001 C CNN
 $EndComp
 Text GLabel 3200 1850 2    50   Input ~ 0
 E_G2
+Wire Wire Line
+	5275 4150 5275 6675
+Wire Wire Line
+	3275 4175 3275 6675
+Wire Wire Line
+	4225 4025 4225 6675
 $EndSCHEMATC

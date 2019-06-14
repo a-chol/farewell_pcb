@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name Switches)(type KiCad)(uri ${KIPRJMOD}/SparkFun-KiCad-Libraries/Footprints/Switches.pretty)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name Encoders)(type KiCad)(uri ${KISYSMOD}/Rotary_Encoder.pretty)(options "")(descr ""))
+  (lib (name pin)(type KiCad)(uri ${KISYSMOD}/Connector_Pin.pretty)(options "")(descr ""))
+  (lib (name switch)(type KiCad)(uri ${KISYSMOD}/Button_Switch_THT.pretty)(options "")(descr ""))
+  (lib (name Mounting)(type KiCad)(uri ${KISYSMOD}/MountingHole.pretty)(options "")(descr ""))
+  (lib (name farewell)(type KiCad)(uri ${KIPRJMOD}/farewell.pretty)(options "")(descr ""))
+)
