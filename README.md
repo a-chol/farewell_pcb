@@ -1,6 +1,9 @@
 # Farewell
 
 The Farewell is the cheapest 3x3 macropad I could make, with joystick and rotary encoder support.
+
+![farewell_v1](img/farewell_v1.jpg)
+
 The cost per unit is around $13 with switches, encoders, diodes and keycaps, for 10 units.
 
 Disclaimer : This is not a final design. Problems identified following the first batch are listed in the "To do" section.
