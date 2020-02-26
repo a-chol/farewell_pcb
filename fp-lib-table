@@ -8,4 +8,5 @@
   (lib (name switch)(type KiCad)(uri ${KISYSMOD}/Button_Switch_THT.pretty)(options "")(descr ""))
   (lib (name Mounting)(type KiCad)(uri ${KISYSMOD}/MountingHole.pretty)(options "")(descr ""))
   (lib (name farewell)(type KiCad)(uri ${KIPRJMOD}/farewell.pretty)(options "")(descr ""))
+  (lib (name farewell_pcb)(type KiCad)(uri ${KIPRJMOD}/farewell_pcb.pretty)(options "")(descr ""))
 )

@@ -93,23 +93,23 @@ $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch RE1
 U 1 1 5CA0CB32
-P 4100 2800
-F 0 "RE1" V 4054 3030 50  0000 L CNN
-F 1 "Rotary_Encoder_Switch" V 4145 3030 50  0000 L CNN
-F 2 "Encoders:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 3950 2960 50  0001 C CNN
-F 3 "~" H 4100 3060 50  0001 C CNN
-	1    4100 2800
+P 4000 1650
+F 0 "RE1" V 3954 1880 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 4045 1880 50  0000 L CNN
+F 2 "Encoders:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 3850 1810 50  0001 C CNN
+F 3 "~" H 4000 1910 50  0001 C CNN
+	1    4000 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch RE2
 U 1 1 5CA180D4
-P 5475 2825
-F 0 "RE2" V 5429 3055 50  0000 L CNN
-F 1 "Rotary_Encoder_Switch" V 5520 3055 50  0000 L CNN
-F 2 "Encoders:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5325 2985 50  0001 C CNN
-F 3 "~" H 5475 3085 50  0001 C CNN
-	1    5475 2825
+P 5350 1625
+F 0 "RE2" V 5304 1855 50  0000 L CNN
+F 1 "Rotary_Encoder_Switch" V 5395 1855 50  0000 L CNN
+F 2 "Encoders:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5200 1785 50  0001 C CNN
+F 3 "~" H 5350 1885 50  0001 C CNN
+	1    5350 1625
 	0    1    1    0   
 $EndComp
 $Comp
@@ -203,54 +203,32 @@ $EndComp
 Connection ~ 2675 5375
 Wire Wire Line
 	2675 5375 2000 5375
-Text GLabel 5275 4150 1    50   Input ~ 0
-COL2
-Text GLabel 2000 5375 0    50   Input ~ 0
-ROW2
-Text GLabel 5375 2525 1    50   Input ~ 0
-E2B
-Text GLabel 3850 2125 0    50   Input ~ 0
-E_G1
-Text GLabel 5575 2525 1    50   Input ~ 0
-E2A
-Text GLabel 4000 2500 1    50   Input ~ 0
-E1B
-Text GLabel 4200 2500 1    50   Input ~ 0
-E1A
+Text GLabel 3750 975  0    50   Input ~ 0
+G_SW
 Wire Wire Line
 	4850 5025 4675 5025
 Connection ~ 4675 5025
 Wire Wire Line
 	4675 5025 4675 5075
-Text GLabel 5375 3125 3    50   Input ~ 0
+Text GLabel 5250 1925 3    50   Input ~ 0
 RE2S2
-Text GLabel 5575 3125 3    50   Input ~ 0
+Text GLabel 5450 1925 3    50   Input ~ 0
 RE2S1
 Wire Wire Line
 	2675 5075 2675 4800
 Wire Wire Line
 	2675 5075 2375 5075
 Connection ~ 2675 5075
-Text GLabel 2000 6100 0    50   Input ~ 0
-ROW1
 Text GLabel 3275 4325 0    50   Input ~ 0
 RE1S2
 Text GLabel 2375 5075 0    50   Input ~ 0
 RE1S1
 Wire Wire Line
-	3850 2125 4100 2125
+	3750 975  4000 975 
 Wire Wire Line
-	5475 2125 5475 2525
+	5350 925  5350 1325
 Wire Wire Line
-	4100 2125 4100 2500
-Text GLabel 2500 2350 2    50   Input ~ 0
-E2A
-Text GLabel 2500 2450 2    50   Input ~ 0
-E2B
-Text GLabel 1100 2750 0    50   Input ~ 0
-E1B
-Text GLabel 2500 2650 2    50   Input ~ 0
-ROW1
+	4000 975  4000 1350
 Wire Wire Line
 	4675 4750 4675 5025
 Wire Wire Line
@@ -261,29 +239,19 @@ Wire Wire Line
 	2675 6100 3625 6100
 Wire Wire Line
 	2000 6100 2675 6100
-Text GLabel 4200 3100 3    50   Input ~ 0
+Text GLabel 4100 1950 3    50   Input ~ 0
 RE1S1
-Text GLabel 4000 3100 3    50   Input ~ 0
+Text GLabel 3900 1950 3    50   Input ~ 0
 RE1S2
 Text GLabel 4850 5025 2    50   Input ~ 0
 RE2S1
 Text GLabel 5275 4250 2    50   Input ~ 0
 RE2S2
-Text GLabel 2500 2150 2    50   Input ~ 0
-COL1
-Text GLabel 2500 2250 2    50   Input ~ 0
-COL0
-Text GLabel 5475 2125 1    50   Input ~ 0
-E_G2
-Text GLabel 2600 1750 2    50   Input ~ 0
-E_G2
+Text GLabel 5350 925  1    50   Input ~ 0
+G_SW
 Wire Wire Line
 	3625 6975 4675 6975
 Connection ~ 3625 6975
-Text GLabel 2000 6975 0    50   Input ~ 0
-ROW0
-Text GLabel 2500 2550 2    50   Input ~ 0
-ROW0
 Connection ~ 3625 5375
 Wire Wire Line
 	3625 5375 4675 5375
@@ -292,12 +260,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 GND_RST1
 U 1 1 5CA6404D
-P 2600 1550
-F 0 "GND_RST1" H 2680 1592 50  0000 L CNN
-F 1 "Conn_01x01" H 2680 1501 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 2600 1550 50  0001 C CNN
-F 3 "~" H 2600 1550 50  0001 C CNN
-	1    2600 1550
+P 2800 1050
+F 0 "GND_RST1" H 2880 1092 50  0000 L CNN
+F 1 "Conn_01x01" H 2880 1001 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 2800 1050 50  0001 C CNN
+F 3 "~" H 2800 1050 50  0001 C CNN
+	1    2800 1050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -305,12 +273,12 @@ Wire Wire Line
 $Comp
 L sparkfun-electromech:JOYSTICK_THUMB JOY1
 U 1 1 5CA9DB90
-P 7400 2800
-F 0 "JOY1" H 7628 2796 50  0000 L CNN
-F 1 "JOYSTICKPTH" H 7628 2705 50  0000 L CNN
-F 2 "Switches:JOYSTICK" H 7430 2950 20  0001 C CNN
-F 3 "" H 7400 2800 50  0001 C CNN
-	1    7400 2800
+P 7325 1325
+F 0 "JOY1" H 7553 1321 50  0000 L CNN
+F 1 "JOYSTICKPTH" H 7553 1230 50  0000 L CNN
+F 2 "Switches:JOYSTICK" H 7355 1475 20  0001 C CNN
+F 3 "" H 7325 1325 50  0001 C CNN
+	1    7325 1325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -318,7 +286,7 @@ L Connector_Generic:Conn_01x01 SCL1
 U 1 1 5CA9FDA0
 P 900 2150
 F 0 "SCL1" H 980 2192 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2101 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2101 50  0000 R CNN
 F 2 "keyboard_parts:PIN_1" H 900 2150 50  0001 C CNN
 F 3 "~" H 900 2150 50  0001 C CNN
 	1    900  2150
@@ -329,7 +297,7 @@ L Connector_Generic:Conn_01x01 SDA1
 U 1 1 5CAA2E38
 P 900 2050
 F 0 "SDA1" H 980 2092 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2001 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2001 50  0000 R CNN
 F 2 "keyboard_parts:PIN_1" H 900 2050 50  0001 C CNN
 F 3 "~" H 900 2050 50  0001 C CNN
 	1    900  2050
@@ -340,33 +308,19 @@ L Connector_Generic:Conn_01x01 EXT1
 U 1 1 5CAA7D24
 P 900 2350
 F 0 "EXT1" H 980 2392 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2301 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2301 50  0000 R CNN
 F 2 "keyboard_parts:PIN_1" H 900 2350 50  0001 C CNN
 F 3 "~" H 900 2350 50  0001 C CNN
 	1    900  2350
 	-1   0    0    1   
 $EndComp
-Text GLabel 1100 2250 0    50   Input ~ 0
-ADC1
-Text GLabel 1100 2450 0    50   Input ~ 0
-ADC2
-Text GLabel 2500 1950 2    50   Input ~ 0
-VCC
-Text GLabel 7000 2400 0    50   Input ~ 0
-VCC
-Text GLabel 7000 2800 0    50   Input ~ 0
-VCC
-Text GLabel 7000 2600 0    50   Input ~ 0
-E_G2
-Text GLabel 7000 3000 0    50   Input ~ 0
-E_G2
-Text GLabel 7000 2500 0    50   Input ~ 0
-ADC1
-Text GLabel 7000 2900 0    50   Input ~ 0
-ADC2
-Text GLabel 7000 3200 0    50   Input ~ 0
+Text GLabel 6975 1125 0    50   Input ~ 0
+G_SW
+Text GLabel 6975 1525 0    50   Input ~ 0
+G_SW
+Text GLabel 6975 1725 0    50   Input ~ 0
 JOY_SW_1
-Text GLabel 7000 3300 0    50   Input ~ 0
+Text GLabel 6975 1825 0    50   Input ~ 0
 JOY_SW_2
 Wire Wire Line
 	3625 5075 3625 4775
@@ -374,21 +328,17 @@ Text GLabel 3625 5000 0    50   Input ~ 0
 JOY_SW_1
 Text GLabel 4225 4300 2    50   Input ~ 0
 JOY_SW_2
-Text GLabel 1100 1950 0    50   Input ~ 0
-E_G1
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5CB34881
-P 3000 1850
-F 0 "SW1" H 3000 2135 50  0000 C CNN
-F 1 "SW_Push" H 3000 2044 50  0000 C CNN
-F 2 "random-kb-part:PushButton_6x6mm_TH_Pretty" H 3000 2050 50  0001 C CNN
-F 3 "~" H 3000 2050 50  0001 C CNN
-	1    3000 1850
-	1    0    0    -1  
+P 2800 1450
+F 0 "SW1" H 2800 1735 50  0000 C CNN
+F 1 "SW_Push" H 2800 1644 50  0000 C CNN
+F 2 "random-kb-part:PushButton_6x6mm_TH_Pretty" H 2800 1650 50  0001 C CNN
+F 3 "~" H 2800 1650 50  0001 C CNN
+	1    2800 1450
+	0    1    1    0   
 $EndComp
-Text GLabel 3200 1850 2    50   Input ~ 0
-E_G2
 Wire Wire Line
 	2500 1750 2600 1750
 $Comp
@@ -429,10 +379,6 @@ F 3 "" H 2950 6650 60  0001 C CNN
 	1    2975 6675
 	1    0    0    -1  
 $EndComp
-Text GLabel 4225 4025 1    50   Input ~ 0
-COL1
-Text GLabel 3275 4175 1    50   Input ~ 0
-COL0
 Wire Wire Line
 	3275 4175 3275 4800
 Connection ~ 3275 4800
@@ -457,12 +403,6 @@ Wire Wire Line
 Connection ~ 5275 5800
 Wire Wire Line
 	5275 5800 5275 6675
-Text GLabel 2500 2050 2    50   Input ~ 0
-COL2
-Text GLabel 2500 2750 2    50   Input ~ 0
-ROW2
-Text GLabel 1100 2650 0    50   Input ~ 0
-E1A
 $Comp
 L promicro:ProMicro U1
 U 1 1 5CB5D06D
@@ -477,264 +417,700 @@ $EndComp
 $Comp
 L LED:WS2812B RGB1
 U 1 1 5E3B33A6
-P 6700 3975
-F 0 "RGB1" H 7044 4021 50  0000 L CNN
-F 1 "WS2812B" H 7044 3930 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6750 3675 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 3600 50  0001 L TNN
-	1    6700 3975
+P 6750 2375
+F 0 "RGB1" H 7094 2421 50  0000 L CNN
+F 1 "WS2812B" H 7094 2330 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 2075 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 2000 50  0001 L TNN
+	1    6750 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B RGB2
 U 1 1 5E3B4623
-P 7775 3975
-F 0 "RGB2" H 8119 4021 50  0000 L CNN
-F 1 "WS2812B" H 8119 3930 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7825 3675 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7875 3600 50  0001 L TNN
-	1    7775 3975
+P 7825 2375
+F 0 "RGB2" H 8169 2421 50  0000 L CNN
+F 1 "WS2812B" H 8169 2330 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7875 2075 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7925 2000 50  0001 L TNN
+	1    7825 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B RGB3
 U 1 1 5E3B53CA
-P 8925 3975
-F 0 "RGB3" H 9269 4021 50  0000 L CNN
-F 1 "WS2812B" H 9269 3930 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8975 3675 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9025 3600 50  0001 L TNN
-	1    8925 3975
+P 8975 2375
+F 0 "RGB3" H 9319 2421 50  0000 L CNN
+F 1 "WS2812B" H 9319 2330 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 2075 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 2000 50  0001 L TNN
+	1    8975 2375
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B RGB6
 U 1 1 5E3B5FCC
-P 8925 4975
-F 0 "RGB6" H 9269 5021 50  0000 L CNN
-F 1 "WS2812B" H 9269 4930 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8975 4675 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9025 4600 50  0001 L TNN
-	1    8925 4975
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B RGB9
-U 1 1 5E3B6D41
-P 8925 6050
-F 0 "RGB9" H 9269 6096 50  0000 L CNN
-F 1 "WS2812B" H 9269 6005 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8975 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9025 5675 50  0001 L TNN
-	1    8925 6050
+P 8975 3375
+F 0 "RGB6" H 9319 3421 50  0000 L CNN
+F 1 "WS2812B" H 9319 3330 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 3075 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 3000 50  0001 L TNN
+	1    8975 3375
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B RGB8
 U 1 1 5E3B7393
-P 7800 6050
-F 0 "RGB8" H 8144 6096 50  0000 L CNN
-F 1 "WS2812B" H 8144 6005 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7850 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7900 5675 50  0001 L TNN
-	1    7800 6050
+P 7850 4450
+F 0 "RGB8" H 8194 4496 50  0000 L CNN
+F 1 "WS2812B" H 8194 4405 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 4075 50  0001 L TNN
+	1    7850 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B RGB4
 U 1 1 5E3B80FC
-P 6700 4975
-F 0 "RGB4" H 7044 5021 50  0000 L CNN
-F 1 "WS2812B" H 7044 4930 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6750 4675 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 4600 50  0001 L TNN
-	1    6700 4975
+P 6750 3375
+F 0 "RGB4" H 7094 3421 50  0000 L CNN
+F 1 "WS2812B" H 7094 3330 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 3075 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 3000 50  0001 L TNN
+	1    6750 3375
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B RGB7
 U 1 1 5E3B85CD
-P 6700 6050
-F 0 "RGB7" H 7044 6096 50  0000 L CNN
-F 1 "WS2812B" H 7044 6005 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6750 5750 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6800 5675 50  0001 L TNN
-	1    6700 6050
+P 6750 4450
+F 0 "RGB7" H 7094 4496 50  0000 L CNN
+F 1 "WS2812B" H 7094 4405 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 4075 50  0001 L TNN
+	1    6750 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 3675 7775 3675
+	6750 2075 7825 2075
 Wire Wire Line
-	7775 3675 8925 3675
+	7825 2075 8975 2075
 Wire Wire Line
-	9875 3675 9875 4675
+	9925 2075 9925 3075
+Connection ~ 7825 2075
+Connection ~ 8975 2075
 Wire Wire Line
-	9875 5750 8925 5750
-Connection ~ 7775 3675
-Connection ~ 8925 3675
+	8975 2075 9925 2075
+Connection ~ 7850 4150
 Wire Wire Line
-	8925 3675 9875 3675
-Connection ~ 7800 5750
+	7850 4150 6750 4150
+Connection ~ 9925 3075
 Wire Wire Line
-	7800 5750 6700 5750
-Connection ~ 8925 5750
+	9925 3075 9925 4150
+Connection ~ 8975 3075
 Wire Wire Line
-	8925 5750 7800 5750
-Connection ~ 9875 4675
+	8975 3075 9925 3075
 Wire Wire Line
-	9875 4675 9875 5750
-Connection ~ 8925 4675
+	8975 2675 7825 2675
 Wire Wire Line
-	8925 4675 9875 4675
+	6250 2675 6250 3675
 Wire Wire Line
-	8925 4275 7775 4275
+	6250 4750 6750 4750
+Connection ~ 6750 2675
 Wire Wire Line
-	6200 4275 6200 5275
+	6750 2675 6250 2675
+Connection ~ 7825 2675
 Wire Wire Line
-	6200 6350 6700 6350
-Connection ~ 6700 4275
+	7825 2675 6750 2675
+Connection ~ 6750 4750
 Wire Wire Line
-	6700 4275 6200 4275
-Connection ~ 7775 4275
+	6750 4750 7850 4750
+Connection ~ 7850 4750
 Wire Wire Line
-	7775 4275 6700 4275
-Connection ~ 6700 6350
+	7850 4750 8975 4750
+Connection ~ 6250 3675
 Wire Wire Line
-	6700 6350 7800 6350
-Connection ~ 7800 6350
+	6250 3675 6250 4750
+Connection ~ 6750 3675
 Wire Wire Line
-	7800 6350 8925 6350
-Connection ~ 6200 5275
+	6750 3675 6250 3675
 Wire Wire Line
-	6200 5275 6200 6350
-Connection ~ 6700 5275
+	7050 2375 7525 2375
 Wire Wire Line
-	6700 5275 6200 5275
+	8125 2375 8675 2375
 Wire Wire Line
-	7000 3975 7475 3975
+	9275 2375 9275 2900
 Wire Wire Line
-	8075 3975 8625 3975
+	9275 2900 6450 2900
 Wire Wire Line
-	9225 3975 9225 4500
+	6450 2900 6450 3375
+Connection ~ 7825 3675
 Wire Wire Line
-	9225 4500 6400 4500
+	8975 3675 7825 3675
 Wire Wire Line
-	6400 4500 6400 4975
-Connection ~ 7775 5275
+	7825 3075 8975 3075
+Connection ~ 7825 3075
 Wire Wire Line
-	8925 5275 7775 5275
+	7825 3675 6750 3675
 Wire Wire Line
-	7775 4675 8925 4675
-Connection ~ 7775 4675
+	6750 3075 7825 3075
 Wire Wire Line
-	7775 5275 6700 5275
-Wire Wire Line
-	6700 4675 7775 4675
-Wire Wire Line
-	7000 4975 7475 4975
+	7050 3375 7525 3375
 $Comp
 L LED:WS2812B RGB5
 U 1 1 5E3B7BF5
-P 7775 4975
-F 0 "RGB5" H 8119 5021 50  0000 L CNN
-F 1 "WS2812B" H 8119 4930 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7825 4675 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7875 4600 50  0001 L TNN
-	1    7775 4975
+P 7825 3375
+F 0 "RGB5" H 8169 3421 50  0000 L CNN
+F 1 "WS2812B" H 8169 3330 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7875 3075 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7925 3000 50  0001 L TNN
+	1    7825 3375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8075 4975 8625 4975
+	8125 3375 8675 3375
 Wire Wire Line
-	9225 4975 9225 5500
+	9275 3375 9275 3900
 Wire Wire Line
-	9225 5500 6400 5500
+	9275 3900 6450 3900
 Wire Wire Line
-	6400 5500 6400 6050
+	6450 3900 6450 4450
 Wire Wire Line
-	7000 6050 7500 6050
+	7050 4450 7550 4450
 Wire Wire Line
-	8100 6050 8625 6050
+	8150 4450 8675 4450
+Wire Wire Line
+	6200 2675 6250 2675
+Connection ~ 6250 2675
+Wire Wire Line
+	6200 2375 6450 2375
+Wire Wire Line
+	6200 2075 6750 2075
+Connection ~ 6750 2075
 $Comp
-L Connector_Generic:Conn_01x01 RGB_VCC1
-U 1 1 5E3D3F21
-P 5950 3675
-F 0 "RGB_VCC1" H 6030 3717 50  0000 L CNN
-F 1 "Conn_01x01" H 6030 3626 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 5950 3675 50  0001 C CNN
-F 3 "~" H 5950 3675 50  0001 C CNN
-	1    5950 3675
+L Connector_Generic:Conn_01x01 E1B_SW1
+U 1 1 5E3BCD7E
+P 3900 1150
+F 0 "E1B_SW1" H 3980 1192 50  0000 L CNN
+F 1 "Conn_01x01" H 3980 1101 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 3900 1150 50  0001 C CNN
+F 3 "~" H 3900 1150 50  0001 C CNN
+	1    3900 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 E1B_MCU1
+U 1 1 5E3C19DD
+P 900 2750
+F 0 "E1B_MCU1" H 980 2792 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2701 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 900 2750 50  0001 C CNN
+F 3 "~" H 900 2750 50  0001 C CNN
+	1    900  2750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 RGB_DI1
-U 1 1 5E3D87A1
-P 5950 3975
-F 0 "RGB_DI1" H 6030 4017 50  0000 L CNN
-F 1 "Conn_01x01" H 6030 3926 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 5950 3975 50  0001 C CNN
-F 3 "~" H 5950 3975 50  0001 C CNN
-	1    5950 3975
+L Connector_Generic:Conn_01x01 E1A_MCU1
+U 1 1 5E3CFC0E
+P 900 2650
+F 0 "E1A_MCU1" H 980 2692 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2601 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 900 2650 50  0001 C CNN
+F 3 "~" H 900 2650 50  0001 C CNN
+	1    900  2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 RGB_GND1
-U 1 1 5E3DBA87
-P 5950 4275
-F 0 "RGB_GND1" H 6030 4317 50  0000 L CNN
-F 1 "Conn_01x01" H 6030 4226 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 5950 4275 50  0001 C CNN
-F 3 "~" H 5950 4275 50  0001 C CNN
-	1    5950 4275
+L Connector_Generic:Conn_01x01 E1A_SW1
+U 1 1 5E3D2E20
+P 4100 1150
+F 0 "E1A_SW1" H 4180 1192 50  0000 L CNN
+F 1 "Conn_01x01" H 4180 1101 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 4100 1150 50  0001 C CNN
+F 3 "~" H 4100 1150 50  0001 C CNN
+	1    4100 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ADC2_MCU1
+U 1 1 5E3D782F
+P 900 2450
+F 0 "ADC2_MCU1" H 980 2492 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2401 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 900 2450 50  0001 C CNN
+F 3 "~" H 900 2450 50  0001 C CNN
+	1    900  2450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 RGB_VCC_MCU1
-U 1 1 5E3DE9B4
-P 3050 1950
-F 0 "RGB_VCC_MCU1" H 3130 1992 50  0000 L CNN
-F 1 "Conn_01x01" H 3130 1901 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 3050 1950 50  0001 C CNN
-F 3 "~" H 3050 1950 50  0001 C CNN
-	1    3050 1950
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 RGB_DI_MCU1
-U 1 1 5E3DE9BE
-P 900 2550
-F 0 "RGB_DI_MCU1" H 980 2592 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2501 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 900 2550 50  0001 C CNN
-F 3 "~" H 900 2550 50  0001 C CNN
-	1    900  2550
+L Connector_Generic:Conn_01x01 ADC2_SW1
+U 1 1 5E3DE2B0
+P 6775 1425
+F 0 "ADC2_SW1" H 6855 1467 50  0000 L CNN
+F 1 "Conn_01x01" H 6855 1376 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 6775 1425 50  0001 C CNN
+F 3 "~" H 6775 1425 50  0001 C CNN
+	1    6775 1425
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 RGB_GND_MCU1
-U 1 1 5E3DE9C8
+L Connector_Generic:Conn_01x01 ADC1_MCU1
+U 1 1 5E3E5D2C
+P 900 2250
+F 0 "ADC1_MCU1" H 980 2292 50  0000 L CNN
+F 1 "Conn_01x01" H 980 2201 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 900 2250 50  0001 C CNN
+F 3 "~" H 900 2250 50  0001 C CNN
+	1    900  2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ADC1_SW1
+U 1 1 5E3E8DB0
+P 6775 1025
+F 0 "ADC1_SW1" H 6855 1067 50  0000 L CNN
+F 1 "Conn_01x01" H 6855 976 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 6775 1025 50  0001 C CNN
+F 3 "~" H 6775 1025 50  0001 C CNN
+	1    6775 1025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G_MCU1
+U 1 1 5E3EC288
 P 900 1850
-F 0 "RGB_GND_MCU1" H 980 1892 50  0000 L CNN
-F 1 "Conn_01x01" H 980 1801 50  0000 L CNN
+F 0 "G_MCU1" H 980 1892 50  0000 L CNN
+F 1 "Conn_01x01" H 980 1801 50  0000 R CNN
 F 2 "keyboard_parts:PIN_1" H 900 1850 50  0001 C CNN
 F 3 "~" H 900 1850 50  0001 C CNN
 	1    900  1850
 	-1   0    0    1   
 $EndComp
+Text GLabel 2500 1650 1    50   Input ~ 0
+RGB_VCC
+$Comp
+L Connector_Generic:Conn_01x01 COL2_MCU1
+U 1 1 5E3F86E0
+P 2700 2250
+F 0 "COL2_MCU1" H 2780 2292 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2201 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2250 50  0001 C CNN
+F 3 "~" H 2700 2250 50  0001 C CNN
+	1    2700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 COL2_SW1
+U 1 1 5E3FC355
+P 5275 3950
+F 0 "COL2_SW1" H 5355 3992 50  0000 L CNN
+F 1 "Conn_01x01" H 5355 3901 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 5275 3950 50  0001 C CNN
+F 3 "~" H 5275 3950 50  0001 C CNN
+	1    5275 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 COL1_SW1
+U 1 1 5E4059EA
+P 4225 3825
+F 0 "COL1_SW1" H 4305 3867 50  0000 L CNN
+F 1 "Conn_01x01" H 4305 3776 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 4225 3825 50  0001 C CNN
+F 3 "~" H 4225 3825 50  0001 C CNN
+	1    4225 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 COL0_SW1
+U 1 1 5E4091B5
+P 3275 3975
+F 0 "COL0_SW1" H 3355 4017 50  0000 L CNN
+F 1 "Conn_01x01" H 3355 3926 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 3275 3975 50  0001 C CNN
+F 3 "~" H 3275 3975 50  0001 C CNN
+	1    3275 3975
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 COL0_MCU1
+U 1 1 5E40C3B2
+P 2700 2050
+F 0 "COL0_MCU1" H 2780 2092 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2001 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2050 50  0001 C CNN
+F 3 "~" H 2700 2050 50  0001 C CNN
+	1    2700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 COL1_MCU1
+U 1 1 5E410AFE
+P 2700 2150
+F 0 "COL1_MCU1" H 2780 2192 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2101 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2150 50  0001 C CNN
+F 3 "~" H 2700 2150 50  0001 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 G_SW1
+U 1 1 5E41554A
+P 2400 3200
+F 0 "G_SW1" H 2480 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 2480 3151 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 2400 3200 50  0001 C CNN
+F 3 "~" H 2400 3200 50  0001 C CNN
+	1    2400 3200
+	-1   0    0    1   
+$EndComp
+Text GLabel 2600 3200 2    50   Input ~ 0
+G_SW
+$Comp
+L Connector_Generic:Conn_01x01 E2B_MCU1
+U 1 1 5E416746
+P 2700 2450
+F 0 "E2B_MCU1" H 2780 2492 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2401 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2450 50  0001 C CNN
+F 3 "~" H 2700 2450 50  0001 C CNN
+	1    2700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 E2B_SW1
+U 1 1 5E419E66
+P 5250 1125
+F 0 "E2B_SW1" H 5330 1167 50  0000 L CNN
+F 1 "Conn_01x01" H 5330 1076 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 5250 1125 50  0001 C CNN
+F 3 "~" H 5250 1125 50  0001 C CNN
+	1    5250 1125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 E2A_MCU1
+U 1 1 5E41D68B
+P 2700 2350
+F 0 "E2A_MCU1" H 2780 2392 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2301 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2350 50  0001 C CNN
+F 3 "~" H 2700 2350 50  0001 C CNN
+	1    2700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ROW0_MCU1
+U 1 1 5E420BB1
+P 2700 2550
+F 0 "ROW0_MCU1" H 2780 2592 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2501 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2550 50  0001 C CNN
+F 3 "~" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ROW1_MCU1
+U 1 1 5E422B24
+P 2700 2650
+F 0 "ROW1_MCU1" H 2780 2692 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2601 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2650 50  0001 C CNN
+F 3 "~" H 2700 2650 50  0001 C CNN
+	1    2700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ROW2_MCU1
+U 1 1 5E4230CB
+P 2700 2750
+F 0 "ROW2_MCU1" H 2780 2792 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2701 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2750 50  0001 C CNN
+F 3 "~" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ROW2_SW1
+U 1 1 5E42CA56
+P 1800 5375
+F 0 "ROW2_SW1" H 1880 5417 50  0000 L CNN
+F 1 "Conn_01x01" H 1880 5326 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 1800 5375 50  0001 C CNN
+F 3 "~" H 1800 5375 50  0001 C CNN
+	1    1800 5375
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ROW1_SW1
+U 1 1 5E4330EE
+P 1800 6100
+F 0 "ROW1_SW1" H 1880 6142 50  0000 L CNN
+F 1 "Conn_01x01" H 1880 6051 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 1800 6100 50  0001 C CNN
+F 3 "~" H 1800 6100 50  0001 C CNN
+	1    1800 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 ROW0_SW1
+U 1 1 5E436511
+P 1800 6975
+F 0 "ROW0_SW1" H 1880 7017 50  0000 L CNN
+F 1 "Conn_01x01" H 1880 6926 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 1800 6975 50  0001 C CNN
+F 3 "~" H 1800 6975 50  0001 C CNN
+	1    1800 6975
+	-1   0    0    1   
+$EndComp
+Text GLabel 1100 2550 0    50   Input ~ 0
+RGB_DI
+Text GLabel 6200 2375 0    50   Input ~ 0
+RGB_DI
+Text GLabel 6200 2075 0    50   Input ~ 0
+RGB_VCC
+Text GLabel 6200 2675 0    50   Input ~ 0
+RGB_GND
+Text GLabel 925  1700 0    50   Input ~ 0
+RGB_GND
 Wire Wire Line
-	2500 1950 2500 1875
+	925  1700 1050 1700
 Wire Wire Line
-	2500 1875 2750 1875
+	1050 1700 1050 1850
 Wire Wire Line
-	2750 1875 2750 1950
+	1050 1850 1100 1850
+Connection ~ 1100 1850
+$Comp
+L Connector_Generic:Conn_01x01 VCC_SW1
+U 1 1 5E3C7FA0
+P 6350 750
+F 0 "VCC_SW1" H 6430 792 50  0000 L CNN
+F 1 "Conn_01x01" H 6430 701 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 6350 750 50  0001 C CNN
+F 3 "~" H 6350 750 50  0001 C CNN
+	1    6350 750 
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	2750 1950 2850 1950
+	6975 750  6975 925 
 Wire Wire Line
-	6150 4275 6200 4275
-Connection ~ 6200 4275
+	6550 750  6550 1325
 Wire Wire Line
-	6150 3975 6400 3975
+	6550 1325 6975 1325
 Wire Wire Line
-	6150 3675 6700 3675
-Connection ~ 6700 3675
+	6550 750  6975 750 
+Connection ~ 6550 750 
+$Comp
+L Connector_Generic:Conn_01x01 RST1
+U 1 1 5E3E9E86
+P 3000 1750
+F 0 "RST1" H 3080 1792 50  0000 L CNN
+F 1 "Conn_01x01" H 3080 1701 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 3000 1750 50  0001 C CNN
+F 3 "~" H 3000 1750 50  0001 C CNN
+	1    3000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 E2A_SW1
+U 1 1 5E40266B
+P 5450 1125
+F 0 "E2A_SW1" H 5530 1167 50  0000 L CNN
+F 1 "Conn_01x01" H 5530 1076 50  0000 L CNN
+F 2 "keyboard_parts:PIN_1" H 5450 1125 50  0001 C CNN
+F 3 "~" H 5450 1125 50  0001 C CNN
+	1    5450 1125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 1250 2800 1250
+Wire Wire Line
+	2600 1250 2600 1750
+Wire Wire Line
+	2800 1850 2800 1750
+Connection ~ 2800 1750
+Wire Wire Line
+	2800 1750 2800 1650
+Connection ~ 2800 1250
+$Comp
+L Connector_Generic:Conn_01x01 VCC_MCU1
+U 1 1 5E3F0C02
+P 2700 1950
+F 0 "VCC_MCU1" H 2780 1992 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 1901 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 1950 50  0001 C CNN
+F 3 "~" H 2700 1950 50  0001 C CNN
+	1    2700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB12
+U 1 1 5E423CFF
+P 8975 5300
+F 0 "RGB12" H 9319 5346 50  0000 L CNN
+F 1 "WS2812B" H 9319 5255 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 5000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 4925 50  0001 L TNN
+	1    8975 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB11
+U 1 1 5E4467C3
+P 7850 5300
+F 0 "RGB11" H 8194 5346 50  0000 L CNN
+F 1 "WS2812B" H 8194 5255 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 5000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 4925 50  0001 L TNN
+	1    7850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB10
+U 1 1 5E447748
+P 6750 5300
+F 0 "RGB10" H 7094 5346 50  0000 L CNN
+F 1 "WS2812B" H 7094 5255 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 5000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 4925 50  0001 L TNN
+	1    6750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB13
+U 1 1 5E447EA1
+P 6750 6125
+F 0 "RGB13" H 7094 6171 50  0000 L CNN
+F 1 "WS2812B" H 7094 6080 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 5825 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 5750 50  0001 L TNN
+	1    6750 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB14
+U 1 1 5E448748
+P 7850 6125
+F 0 "RGB14" H 8194 6171 50  0000 L CNN
+F 1 "WS2812B" H 8194 6080 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 5825 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 5750 50  0001 L TNN
+	1    7850 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB15
+U 1 1 5E448EFD
+P 8975 6125
+F 0 "RGB15" H 9319 6171 50  0000 L CNN
+F 1 "WS2812B" H 9319 6080 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 5825 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 5750 50  0001 L TNN
+	1    8975 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB16
+U 1 1 5E4496AF
+P 10000 6125
+F 0 "RGB16" H 10344 6171 50  0000 L CNN
+F 1 "WS2812B" H 10344 6080 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10050 5825 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10100 5750 50  0001 L TNN
+	1    10000 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8675 5300 8150 5300
+Wire Wire Line
+	7550 5300 7050 5300
+Wire Wire Line
+	8975 4150 9925 4150
+Wire Wire Line
+	8975 4150 7850 4150
+Connection ~ 8975 4150
+$Comp
+L LED:WS2812B RGB9
+U 1 1 5E3B6D41
+P 8975 4450
+F 0 "RGB9" H 9319 4496 50  0000 L CNN
+F 1 "WS2812B" H 9319 4405 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 4150 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 4075 50  0001 L TNN
+	1    8975 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9275 4450 9275 4825
+Wire Wire Line
+	9275 4825 6450 4825
+Wire Wire Line
+	6450 4825 6450 5300
+Wire Wire Line
+	9275 5300 9300 5300
+Wire Wire Line
+	9300 5300 9300 5750
+Wire Wire Line
+	9300 5750 6450 5750
+Wire Wire Line
+	6450 5750 6450 6125
+Wire Wire Line
+	7050 6125 7550 6125
+Wire Wire Line
+	8150 6125 8675 6125
+Wire Wire Line
+	9275 6125 9700 6125
+Wire Wire Line
+	9925 4150 9925 5000
+Wire Wire Line
+	9925 5825 10000 5825
+Connection ~ 9925 4150
+Wire Wire Line
+	6750 5825 7850 5825
+Connection ~ 9925 5825
+Connection ~ 7850 5825
+Wire Wire Line
+	7850 5825 8975 5825
+Connection ~ 8975 5825
+Wire Wire Line
+	8975 5825 9925 5825
+Wire Wire Line
+	6750 5000 7850 5000
+Connection ~ 7850 5000
+Wire Wire Line
+	7850 5000 8975 5000
+Connection ~ 8975 5000
+Wire Wire Line
+	8975 5000 9925 5000
+Connection ~ 9925 5000
+Wire Wire Line
+	9925 5000 9925 5825
+Wire Wire Line
+	6250 5600 6750 5600
+Connection ~ 6250 4750
+Connection ~ 6750 5600
+Wire Wire Line
+	6750 5600 7850 5600
+Connection ~ 7850 5600
+Wire Wire Line
+	7850 5600 8975 5600
+Wire Wire Line
+	10000 6425 8975 6425
+Wire Wire Line
+	6250 4750 6250 5600
+Connection ~ 6750 6425
+Wire Wire Line
+	6750 6425 6250 6425
+Connection ~ 7850 6425
+Wire Wire Line
+	7850 6425 6750 6425
+Connection ~ 8975 6425
+Wire Wire Line
+	8975 6425 7850 6425
+Connection ~ 6250 5600
+Wire Wire Line
+	6250 5600 6250 6425
 $EndSCHEMATC
