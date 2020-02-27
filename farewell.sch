@@ -204,7 +204,7 @@ Connection ~ 2675 5375
 Wire Wire Line
 	2675 5375 2000 5375
 Text GLabel 3750 975  0    50   Input ~ 0
-G_SW
+GND_SW
 Wire Wire Line
 	4850 5025 4675 5025
 Connection ~ 4675 5025
@@ -248,7 +248,7 @@ RE2S1
 Text GLabel 5275 4250 2    50   Input ~ 0
 RE2S2
 Text GLabel 5350 925  1    50   Input ~ 0
-G_SW
+GND_SW
 Wire Wire Line
 	3625 6975 4675 6975
 Connection ~ 3625 6975
@@ -315,9 +315,9 @@ F 3 "~" H 900 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6975 1125 0    50   Input ~ 0
-G_SW
+GND_SW
 Text GLabel 6975 1525 0    50   Input ~ 0
-G_SW
+GND_SW
 Text GLabel 6975 1725 0    50   Input ~ 0
 JOY_SW_1
 Text GLabel 6975 1825 0    50   Input ~ 0
@@ -409,7 +409,7 @@ U 1 1 5CB5D06D
 P 1800 2400
 F 0 "U1" H 1800 3437 60  0000 C CNN
 F 1 "0" H 1800 3331 60  0000 C CNN
-F 2 "promicro:ProMicro" H 1900 1350 60  0001 C CNN
+F 2 "farewell_pcb:keebio_ArduinoProMicro-ZigZag" H 1900 1350 60  0001 C CNN
 F 3 "" H 1900 1350 60  0000 C CNN
 	1    1800 2400
 	1    0    0    -1  
@@ -587,285 +587,8 @@ Wire Wire Line
 Wire Wire Line
 	6200 2075 6750 2075
 Connection ~ 6750 2075
-$Comp
-L Connector_Generic:Conn_01x01 E1B_SW1
-U 1 1 5E3BCD7E
-P 3900 1150
-F 0 "E1B_SW1" H 3980 1192 50  0000 L CNN
-F 1 "Conn_01x01" H 3980 1101 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 3900 1150 50  0001 C CNN
-F 3 "~" H 3900 1150 50  0001 C CNN
-	1    3900 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 E1B_MCU1
-U 1 1 5E3C19DD
-P 900 2750
-F 0 "E1B_MCU1" H 980 2792 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2701 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 900 2750 50  0001 C CNN
-F 3 "~" H 900 2750 50  0001 C CNN
-	1    900  2750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 E1A_MCU1
-U 1 1 5E3CFC0E
-P 900 2650
-F 0 "E1A_MCU1" H 980 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2601 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 900 2650 50  0001 C CNN
-F 3 "~" H 900 2650 50  0001 C CNN
-	1    900  2650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 E1A_SW1
-U 1 1 5E3D2E20
-P 4100 1150
-F 0 "E1A_SW1" H 4180 1192 50  0000 L CNN
-F 1 "Conn_01x01" H 4180 1101 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 4100 1150 50  0001 C CNN
-F 3 "~" H 4100 1150 50  0001 C CNN
-	1    4100 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ADC2_MCU1
-U 1 1 5E3D782F
-P 900 2450
-F 0 "ADC2_MCU1" H 980 2492 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2401 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 900 2450 50  0001 C CNN
-F 3 "~" H 900 2450 50  0001 C CNN
-	1    900  2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ADC2_SW1
-U 1 1 5E3DE2B0
-P 6775 1425
-F 0 "ADC2_SW1" H 6855 1467 50  0000 L CNN
-F 1 "Conn_01x01" H 6855 1376 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 6775 1425 50  0001 C CNN
-F 3 "~" H 6775 1425 50  0001 C CNN
-	1    6775 1425
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ADC1_MCU1
-U 1 1 5E3E5D2C
-P 900 2250
-F 0 "ADC1_MCU1" H 980 2292 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2201 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 900 2250 50  0001 C CNN
-F 3 "~" H 900 2250 50  0001 C CNN
-	1    900  2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ADC1_SW1
-U 1 1 5E3E8DB0
-P 6775 1025
-F 0 "ADC1_SW1" H 6855 1067 50  0000 L CNN
-F 1 "Conn_01x01" H 6855 976 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 6775 1025 50  0001 C CNN
-F 3 "~" H 6775 1025 50  0001 C CNN
-	1    6775 1025
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 G_MCU1
-U 1 1 5E3EC288
-P 900 1850
-F 0 "G_MCU1" H 980 1892 50  0000 L CNN
-F 1 "Conn_01x01" H 980 1801 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 900 1850 50  0001 C CNN
-F 3 "~" H 900 1850 50  0001 C CNN
-	1    900  1850
-	-1   0    0    1   
-$EndComp
 Text GLabel 2500 1650 1    50   Input ~ 0
 RGB_VCC
-$Comp
-L Connector_Generic:Conn_01x01 COL2_MCU1
-U 1 1 5E3F86E0
-P 2700 2250
-F 0 "COL2_MCU1" H 2780 2292 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2201 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2250 50  0001 C CNN
-F 3 "~" H 2700 2250 50  0001 C CNN
-	1    2700 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 COL2_SW1
-U 1 1 5E3FC355
-P 5275 3950
-F 0 "COL2_SW1" H 5355 3992 50  0000 L CNN
-F 1 "Conn_01x01" H 5355 3901 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 5275 3950 50  0001 C CNN
-F 3 "~" H 5275 3950 50  0001 C CNN
-	1    5275 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 COL1_SW1
-U 1 1 5E4059EA
-P 4225 3825
-F 0 "COL1_SW1" H 4305 3867 50  0000 L CNN
-F 1 "Conn_01x01" H 4305 3776 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 4225 3825 50  0001 C CNN
-F 3 "~" H 4225 3825 50  0001 C CNN
-	1    4225 3825
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 COL0_SW1
-U 1 1 5E4091B5
-P 3275 3975
-F 0 "COL0_SW1" H 3355 4017 50  0000 L CNN
-F 1 "Conn_01x01" H 3355 3926 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 3275 3975 50  0001 C CNN
-F 3 "~" H 3275 3975 50  0001 C CNN
-	1    3275 3975
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 COL0_MCU1
-U 1 1 5E40C3B2
-P 2700 2050
-F 0 "COL0_MCU1" H 2780 2092 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2001 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2050 50  0001 C CNN
-F 3 "~" H 2700 2050 50  0001 C CNN
-	1    2700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 COL1_MCU1
-U 1 1 5E410AFE
-P 2700 2150
-F 0 "COL1_MCU1" H 2780 2192 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2101 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2150 50  0001 C CNN
-F 3 "~" H 2700 2150 50  0001 C CNN
-	1    2700 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 G_SW1
-U 1 1 5E41554A
-P 2400 3200
-F 0 "G_SW1" H 2480 3242 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 3151 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 2400 3200 50  0001 C CNN
-F 3 "~" H 2400 3200 50  0001 C CNN
-	1    2400 3200
-	-1   0    0    1   
-$EndComp
-Text GLabel 2600 3200 2    50   Input ~ 0
-G_SW
-$Comp
-L Connector_Generic:Conn_01x01 E2B_MCU1
-U 1 1 5E416746
-P 2700 2450
-F 0 "E2B_MCU1" H 2780 2492 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2401 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2450 50  0001 C CNN
-F 3 "~" H 2700 2450 50  0001 C CNN
-	1    2700 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 E2B_SW1
-U 1 1 5E419E66
-P 5250 1125
-F 0 "E2B_SW1" H 5330 1167 50  0000 L CNN
-F 1 "Conn_01x01" H 5330 1076 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 5250 1125 50  0001 C CNN
-F 3 "~" H 5250 1125 50  0001 C CNN
-	1    5250 1125
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 E2A_MCU1
-U 1 1 5E41D68B
-P 2700 2350
-F 0 "E2A_MCU1" H 2780 2392 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2301 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2350 50  0001 C CNN
-F 3 "~" H 2700 2350 50  0001 C CNN
-	1    2700 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ROW0_MCU1
-U 1 1 5E420BB1
-P 2700 2550
-F 0 "ROW0_MCU1" H 2780 2592 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2501 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2550 50  0001 C CNN
-F 3 "~" H 2700 2550 50  0001 C CNN
-	1    2700 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ROW1_MCU1
-U 1 1 5E422B24
-P 2700 2650
-F 0 "ROW1_MCU1" H 2780 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2601 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2650 50  0001 C CNN
-F 3 "~" H 2700 2650 50  0001 C CNN
-	1    2700 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ROW2_MCU1
-U 1 1 5E4230CB
-P 2700 2750
-F 0 "ROW2_MCU1" H 2780 2792 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2701 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2750 50  0001 C CNN
-F 3 "~" H 2700 2750 50  0001 C CNN
-	1    2700 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ROW2_SW1
-U 1 1 5E42CA56
-P 1800 5375
-F 0 "ROW2_SW1" H 1880 5417 50  0000 L CNN
-F 1 "Conn_01x01" H 1880 5326 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 1800 5375 50  0001 C CNN
-F 3 "~" H 1800 5375 50  0001 C CNN
-	1    1800 5375
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ROW1_SW1
-U 1 1 5E4330EE
-P 1800 6100
-F 0 "ROW1_SW1" H 1880 6142 50  0000 L CNN
-F 1 "Conn_01x01" H 1880 6051 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 1800 6100 50  0001 C CNN
-F 3 "~" H 1800 6100 50  0001 C CNN
-	1    1800 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 ROW0_SW1
-U 1 1 5E436511
-P 1800 6975
-F 0 "ROW0_SW1" H 1880 7017 50  0000 L CNN
-F 1 "Conn_01x01" H 1880 6926 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 1800 6975 50  0001 C CNN
-F 3 "~" H 1800 6975 50  0001 C CNN
-	1    1800 6975
-	-1   0    0    1   
-$EndComp
 Text GLabel 1100 2550 0    50   Input ~ 0
 RGB_DI
 Text GLabel 6200 2375 0    50   Input ~ 0
@@ -882,18 +605,6 @@ Wire Wire Line
 	1050 1700 1050 1850
 Wire Wire Line
 	1050 1850 1100 1850
-Connection ~ 1100 1850
-$Comp
-L Connector_Generic:Conn_01x01 VCC_SW1
-U 1 1 5E3C7FA0
-P 6350 750
-F 0 "VCC_SW1" H 6430 792 50  0000 L CNN
-F 1 "Conn_01x01" H 6430 701 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 6350 750 50  0001 C CNN
-F 3 "~" H 6350 750 50  0001 C CNN
-	1    6350 750 
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6975 750  6975 925 
 Wire Wire Line
@@ -902,7 +613,6 @@ Wire Wire Line
 	6550 1325 6975 1325
 Wire Wire Line
 	6550 750  6975 750 
-Connection ~ 6550 750 
 $Comp
 L Connector_Generic:Conn_01x01 RST1
 U 1 1 5E3E9E86
@@ -914,17 +624,6 @@ F 3 "~" H 3000 1750 50  0001 C CNN
 	1    3000 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 E2A_SW1
-U 1 1 5E40266B
-P 5450 1125
-F 0 "E2A_SW1" H 5530 1167 50  0000 L CNN
-F 1 "Conn_01x01" H 5530 1076 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 5450 1125 50  0001 C CNN
-F 3 "~" H 5450 1125 50  0001 C CNN
-	1    5450 1125
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2600 1250 2800 1250
 Wire Wire Line
@@ -935,17 +634,6 @@ Connection ~ 2800 1750
 Wire Wire Line
 	2800 1750 2800 1650
 Connection ~ 2800 1250
-$Comp
-L Connector_Generic:Conn_01x01 VCC_MCU1
-U 1 1 5E3F0C02
-P 2700 1950
-F 0 "VCC_MCU1" H 2780 1992 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 1901 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 1950 50  0001 C CNN
-F 3 "~" H 2700 1950 50  0001 C CNN
-	1    2700 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED:WS2812B RGB12
 U 1 1 5E423CFF
@@ -1113,4 +801,158 @@ Wire Wire Line
 Connection ~ 6250 5600
 Wire Wire Line
 	6250 5600 6250 6425
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5E5A9470
+P 1150 3650
+F 0 "J1" H 1230 3642 50  0000 L CNN
+F 1 "Conn_01x08" H 1230 3551 50  0000 L CNN
+F 2 "farewell_pcb:keebio_Header-8-Pin-ZigZag" H 1150 3650 50  0001 C CNN
+F 3 "~" H 1150 3650 50  0001 C CNN
+	1    1150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5E5AAC74
+P 1275 3675
+F 0 "J3" H 1193 4092 50  0000 C CNN
+F 1 "Conn_01x06" H 1193 4001 50  0000 C CNN
+F 2 "farewell_pcb:keebio_Header-6-Pin-ZigZag" H 1275 3675 50  0001 C CNN
+F 3 "~" H 1275 3675 50  0001 C CNN
+	1    1275 3675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5E5AF02E
+P 1150 4575
+F 0 "J2" H 1230 4567 50  0000 L CNN
+F 1 "Conn_01x08" V 1230 4476 50  0000 L CNN
+F 2 "farewell_pcb:keebio_Header-8-Pin-ZigZag" H 1150 4575 50  0001 C CNN
+F 3 "~" H 1150 4575 50  0001 C CNN
+	1    1150 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5E5AF038
+P 1275 4575
+F 0 "J4" H 1193 4992 50  0000 C CNN
+F 1 "Conn_01x06" V 1193 4901 50  0000 C CNN
+F 2 "farewell_pcb:keebio_Header-6-Pin-ZigZag" H 1275 4575 50  0001 C CNN
+F 3 "~" H 1275 4575 50  0001 C CNN
+	1    1275 4575
+	-1   0    0    -1  
+$EndComp
+Text GLabel 950  4050 0    50   Input ~ 0
+GND_MCU
+Text GLabel 950  3950 0    50   Input ~ 0
+E1B_MCU
+Text GLabel 950  3850 0    50   Input ~ 0
+E1A_MCU
+Text GLabel 950  3750 0    50   Input ~ 0
+ADC2_MCU
+Text GLabel 1475 3475 2    50   Input ~ 0
+COL2_MCU
+Text GLabel 950  3650 0    50   Input ~ 0
+ADC1_MCU
+Text GLabel 950  3550 0    50   Input ~ 0
+COL1_MCU
+Text GLabel 950  3450 0    50   Input ~ 0
+COL0_MCU
+Text GLabel 950  4975 0    50   Input ~ 0
+GND_SW
+Text GLabel 950  4875 0    50   Input ~ 0
+E1B_SW
+Text GLabel 950  4775 0    50   Input ~ 0
+E1A_SW
+Text GLabel 950  4675 0    50   Input ~ 0
+ADC2_SW
+Text GLabel 1475 4375 2    50   Input ~ 0
+COL2_SW
+Text GLabel 950  4575 0    50   Input ~ 0
+ADC1_SW
+Text GLabel 950  4475 0    50   Input ~ 0
+COL1_SW
+Text GLabel 950  4375 0    50   Input ~ 0
+COL0_SW
+Text GLabel 1475 4875 2    50   Input ~ 0
+ROW0_SW
+Text GLabel 1475 4775 2    50   Input ~ 0
+ROW1_SW
+Text GLabel 1475 4675 2    50   Input ~ 0
+ROW2_SW
+Text GLabel 1475 4575 2    50   Input ~ 0
+E2B_SW
+Text GLabel 1475 4475 2    50   Input ~ 0
+E2A_SW
+Text GLabel 950  4275 0    50   Input ~ 0
+VCC_SW
+Text GLabel 1475 3975 2    50   Input ~ 0
+ROW0_MCU
+Text GLabel 1475 3875 2    50   Input ~ 0
+ROW1_MCU
+Text GLabel 1475 3775 2    50   Input ~ 0
+ROW2_MCU
+Text GLabel 1475 3675 2    50   Input ~ 0
+E2B_MCU
+Text GLabel 1475 3575 2    50   Input ~ 0
+E2A_MCU
+Text GLabel 950  3350 0    50   Input ~ 0
+VCC_MCU
+Text GLabel 6550 750  0    50   Input ~ 0
+VCC_SW
+Text GLabel 1100 2250 0    50   Input ~ 0
+ADC1_MCU
+Text GLabel 1100 2450 0    50   Input ~ 0
+ADC2_MCU
+Text GLabel 1100 2750 0    50   Input ~ 0
+E1B_MCU
+Text GLabel 1050 1850 0    50   Input ~ 0
+GND_MCU
+Text GLabel 2500 1950 2    50   Input ~ 0
+VCC_MCU
+Text GLabel 2500 2050 2    50   Input ~ 0
+COL0_MCU
+Text GLabel 2500 2150 2    50   Input ~ 0
+COL1_MCU
+Text GLabel 2500 2250 2    50   Input ~ 0
+COL2_MCU
+Text GLabel 2500 2350 2    50   Input ~ 0
+E2A_MCU
+Text GLabel 2500 2450 2    50   Input ~ 0
+E2B_MCU
+Text GLabel 2500 2550 2    50   Input ~ 0
+ROW2_MCU
+Text GLabel 2500 2650 2    50   Input ~ 0
+ROW1_MCU
+Text GLabel 2500 2750 2    50   Input ~ 0
+ROW0_MCU
+Text GLabel 3275 4175 1    50   Input ~ 0
+COL0_SW
+Text GLabel 4225 4025 1    50   Input ~ 0
+COL1_SW
+Text GLabel 5275 4150 1    50   Input ~ 0
+COL2_SW
+Text GLabel 2000 5375 0    50   Input ~ 0
+ROW2_SW
+Text GLabel 2000 6100 0    50   Input ~ 0
+ROW1_SW
+Text GLabel 2000 6975 0    50   Input ~ 0
+ROW0_SW
+Text GLabel 3900 1350 1    50   Input ~ 0
+E1B_SW
+Text GLabel 4100 1350 1    50   Input ~ 0
+E1A_SW
+Text GLabel 1100 2650 0    50   Input ~ 0
+E1A_MCU
+Text GLabel 5450 1325 1    50   Input ~ 0
+E2A_SW
+Text GLabel 5250 1325 1    50   Input ~ 0
+E2B_SW
+Text GLabel 6975 1425 0    50   Input ~ 0
+ADC2_SW
+Text GLabel 6975 1025 0    50   Input ~ 0
+ADC1_SW
 $EndSCHEMATC
