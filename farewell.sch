@@ -19,10 +19,10 @@ U 1 1 5CA014D4
 P 3925 6675
 F 0 "MX2" H 4011 6892 60  0000 C CNN
 F 1 "MX-1U" H 4011 6818 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 3900 6650 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 3900 6650 60  0001 C CNN
 F 3 "" H 3900 6650 60  0001 C CNN
 	1    3925 6675
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard-parts2:KEYSW MX3
@@ -30,10 +30,10 @@ U 1 1 5CA01EDD
 P 4975 6675
 F 0 "MX3" H 5061 6892 60  0000 C CNN
 F 1 "MX-1U" H 5061 6818 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 4950 6650 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 4950 6650 60  0001 C CNN
 F 3 "" H 4950 6650 60  0001 C CNN
 	1    4975 6675
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard-parts2:KEYSW MX5
@@ -41,10 +41,10 @@ U 1 1 5CA06044
 P 3925 5800
 F 0 "MX5" H 4011 6017 60  0000 C CNN
 F 1 "MX-1U" H 4011 5943 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 3900 5775 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 3900 5775 60  0001 C CNN
 F 3 "" H 3900 5775 60  0001 C CNN
 	1    3925 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard-parts2:KEYSW MX6
@@ -52,10 +52,10 @@ U 1 1 5CA06743
 P 4975 5800
 F 0 "MX6" H 5061 6017 60  0000 C CNN
 F 1 "MX-1U" H 5061 5943 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 4950 5775 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 4950 5775 60  0001 C CNN
 F 3 "" H 4950 5775 60  0001 C CNN
 	1    4975 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard-parts2:KEYSW MX7
@@ -63,10 +63,10 @@ U 1 1 5CA07858
 P 2975 4800
 F 0 "MX7" H 3061 5017 60  0000 C CNN
 F 1 "MX-1U" H 3061 4943 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 2950 4775 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 2950 4775 60  0001 C CNN
 F 3 "" H 2950 4775 60  0001 C CNN
 	1    2975 4800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard-parts2:KEYSW MX8
@@ -74,10 +74,10 @@ U 1 1 5CA0852F
 P 3925 4775
 F 0 "MX8" H 4011 4992 60  0000 C CNN
 F 1 "MX-1U" H 4011 4918 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 3900 4750 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 3900 4750 60  0001 C CNN
 F 3 "" H 3900 4750 60  0001 C CNN
 	1    3925 4775
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L keyboard-parts2:KEYSW MX9
@@ -85,10 +85,10 @@ U 1 1 5CA08E22
 P 4975 4750
 F 0 "MX9" H 5061 4967 60  0000 C CNN
 F 1 "MX-1U" H 5061 4893 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 4950 4725 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 4950 4725 60  0001 C CNN
 F 3 "" H 4950 4725 60  0001 C CNN
 	1    4975 4750
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch RE1
@@ -203,8 +203,6 @@ $EndComp
 Connection ~ 2675 5375
 Wire Wire Line
 	2675 5375 2000 5375
-Text GLabel 3750 975  0    50   Input ~ 0
-GND_SW
 Wire Wire Line
 	4850 5025 4675 5025
 Connection ~ 4675 5025
@@ -223,8 +221,6 @@ Text GLabel 3275 4325 0    50   Input ~ 0
 RE1S2
 Text GLabel 2375 5075 0    50   Input ~ 0
 RE1S1
-Wire Wire Line
-	3750 975  4000 975 
 Wire Wire Line
 	5350 925  5350 1325
 Wire Wire Line
@@ -247,8 +243,6 @@ Text GLabel 4850 5025 2    50   Input ~ 0
 RE2S1
 Text GLabel 5275 4250 2    50   Input ~ 0
 RE2S2
-Text GLabel 5350 925  1    50   Input ~ 0
-GND_SW
 Wire Wire Line
 	3625 6975 4675 6975
 Connection ~ 3625 6975
@@ -257,19 +251,6 @@ Wire Wire Line
 	3625 5375 4675 5375
 Wire Wire Line
 	2675 5375 3625 5375
-$Comp
-L Connector_Generic:Conn_01x01 GND_RST1
-U 1 1 5CA6404D
-P 2800 1050
-F 0 "GND_RST1" H 2880 1092 50  0000 L CNN
-F 1 "Conn_01x01" H 2880 1001 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 2800 1050 50  0001 C CNN
-F 3 "~" H 2800 1050 50  0001 C CNN
-	1    2800 1050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2800 1850 2500 1850
 $Comp
 L sparkfun-electromech:JOYSTICK_THUMB JOY1
 U 1 1 5CA9DB90
@@ -306,18 +287,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 EXT1
 U 1 1 5CAA7D24
-P 900 2350
-F 0 "EXT1" H 980 2392 50  0000 L CNN
-F 1 "Conn_01x01" H 980 2301 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 900 2350 50  0001 C CNN
-F 3 "~" H 900 2350 50  0001 C CNN
-	1    900  2350
-	-1   0    0    1   
+P 2700 2050
+F 0 "EXT1" H 2780 2092 50  0000 L CNN
+F 1 "Conn_01x01" H 2780 2001 50  0000 R CNN
+F 2 "keyboard_parts:PIN_1" H 2700 2050 50  0001 C CNN
+F 3 "~" H 2700 2050 50  0001 C CNN
+	1    2700 2050
+	1    0    0    -1  
 $EndComp
-Text GLabel 6975 1125 0    50   Input ~ 0
-GND_SW
-Text GLabel 6975 1525 0    50   Input ~ 0
-GND_SW
 Text GLabel 6975 1725 0    50   Input ~ 0
 JOY_SW_1
 Text GLabel 6975 1825 0    50   Input ~ 0
@@ -331,26 +308,24 @@ JOY_SW_2
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5CB34881
-P 2800 1450
-F 0 "SW1" H 2800 1735 50  0000 C CNN
-F 1 "SW_Push" H 2800 1644 50  0000 C CNN
-F 2 "random-kb-part:PushButton_6x6mm_TH_Pretty" H 2800 1650 50  0001 C CNN
-F 3 "~" H 2800 1650 50  0001 C CNN
-	1    2800 1450
-	0    1    1    0   
+P 2850 1525
+F 0 "SW1" H 2850 1810 50  0000 C CNN
+F 1 "SW_Push" H 2850 1719 50  0000 C CNN
+F 2 "random-kb-part:PushButton_6x6mm_TH_Pretty" H 2850 1725 50  0001 C CNN
+F 3 "~" H 2850 1725 50  0001 C CNN
+	1    2850 1525
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2500 1750 2600 1750
 $Comp
 L keyboard-parts2:KEYSW MX4
 U 1 1 5CA0561D
 P 2975 5800
 F 0 "MX4" H 3061 6017 60  0000 C CNN
 F 1 "MX-1U" H 3061 5943 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 2950 5775 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 2950 5775 60  0001 C CNN
 F 3 "" H 2950 5775 60  0001 C CNN
 	1    2975 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Connection ~ 2675 6975
 Wire Wire Line
@@ -374,10 +349,10 @@ U 1 1 5C9FFB86
 P 2975 6675
 F 0 "MX1" H 3061 6892 60  0000 C CNN
 F 1 "MX-1U" H 3061 6818 20  0000 C CNN
-F 2 "farewell:MX-1U-NoLED-NoPCBMount" H 2950 6650 60  0001 C CNN
+F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 2950 6650 60  0001 C CNN
 F 3 "" H 2950 6650 60  0001 C CNN
 	1    2975 6675
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3275 4175 3275 4800
@@ -420,7 +395,7 @@ U 1 1 5E3B33A6
 P 6750 2375
 F 0 "RGB1" H 7094 2421 50  0000 L CNN
 F 1 "WS2812B" H 7094 2330 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 2075 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 6800 2075 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 2000 50  0001 L TNN
 	1    6750 2375
 	1    0    0    -1  
@@ -431,7 +406,7 @@ U 1 1 5E3B4623
 P 7825 2375
 F 0 "RGB2" H 8169 2421 50  0000 L CNN
 F 1 "WS2812B" H 8169 2330 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7875 2075 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 7875 2075 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7925 2000 50  0001 L TNN
 	1    7825 2375
 	1    0    0    -1  
@@ -442,7 +417,7 @@ U 1 1 5E3B53CA
 P 8975 2375
 F 0 "RGB3" H 9319 2421 50  0000 L CNN
 F 1 "WS2812B" H 9319 2330 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 2075 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 9025 2075 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 2000 50  0001 L TNN
 	1    8975 2375
 	1    0    0    -1  
@@ -453,7 +428,7 @@ U 1 1 5E3B5FCC
 P 8975 3375
 F 0 "RGB6" H 9319 3421 50  0000 L CNN
 F 1 "WS2812B" H 9319 3330 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 3075 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 9025 3075 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 3000 50  0001 L TNN
 	1    8975 3375
 	1    0    0    -1  
@@ -464,7 +439,7 @@ U 1 1 5E3B7393
 P 7850 4450
 F 0 "RGB8" H 8194 4496 50  0000 L CNN
 F 1 "WS2812B" H 8194 4405 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 4150 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 7900 4150 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 4075 50  0001 L TNN
 	1    7850 4450
 	1    0    0    -1  
@@ -475,7 +450,7 @@ U 1 1 5E3B80FC
 P 6750 3375
 F 0 "RGB4" H 7094 3421 50  0000 L CNN
 F 1 "WS2812B" H 7094 3330 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 3075 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 6800 3075 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 3000 50  0001 L TNN
 	1    6750 3375
 	1    0    0    -1  
@@ -486,7 +461,7 @@ U 1 1 5E3B85CD
 P 6750 4450
 F 0 "RGB7" H 7094 4496 50  0000 L CNN
 F 1 "WS2812B" H 7094 4405 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 4150 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 6800 4150 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 4075 50  0001 L TNN
 	1    6750 4450
 	1    0    0    -1  
@@ -562,7 +537,7 @@ U 1 1 5E3B7BF5
 P 7825 3375
 F 0 "RGB5" H 8169 3421 50  0000 L CNN
 F 1 "WS2812B" H 8169 3330 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7875 3075 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 7875 3075 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7925 3000 50  0001 L TNN
 	1    7825 3375
 	1    0    0    -1  
@@ -579,32 +554,20 @@ Wire Wire Line
 	7050 4450 7550 4450
 Wire Wire Line
 	8150 4450 8675 4450
-Wire Wire Line
-	6200 2675 6250 2675
 Connection ~ 6250 2675
 Wire Wire Line
 	6200 2375 6450 2375
 Wire Wire Line
 	6200 2075 6750 2075
 Connection ~ 6750 2075
-Text GLabel 2500 1650 1    50   Input ~ 0
+Text GLabel 2500 1450 1    50   Input ~ 0
 RGB_VCC
-Text GLabel 1100 2550 0    50   Input ~ 0
+Text GLabel 900  2450 0    50   Input ~ 0
 RGB_DI
 Text GLabel 6200 2375 0    50   Input ~ 0
 RGB_DI
 Text GLabel 6200 2075 0    50   Input ~ 0
 RGB_VCC
-Text GLabel 6200 2675 0    50   Input ~ 0
-RGB_GND
-Text GLabel 925  1700 0    50   Input ~ 0
-RGB_GND
-Wire Wire Line
-	925  1700 1050 1700
-Wire Wire Line
-	1050 1700 1050 1850
-Wire Wire Line
-	1050 1850 1100 1850
 Wire Wire Line
 	6975 750  6975 925 
 Wire Wire Line
@@ -614,33 +577,12 @@ Wire Wire Line
 Wire Wire Line
 	6550 750  6975 750 
 $Comp
-L Connector_Generic:Conn_01x01 RST1
-U 1 1 5E3E9E86
-P 3000 1750
-F 0 "RST1" H 3080 1792 50  0000 L CNN
-F 1 "Conn_01x01" H 3080 1701 50  0000 L CNN
-F 2 "keyboard_parts:PIN_1" H 3000 1750 50  0001 C CNN
-F 3 "~" H 3000 1750 50  0001 C CNN
-	1    3000 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 1250 2800 1250
-Wire Wire Line
-	2600 1250 2600 1750
-Wire Wire Line
-	2800 1850 2800 1750
-Connection ~ 2800 1750
-Wire Wire Line
-	2800 1750 2800 1650
-Connection ~ 2800 1250
-$Comp
 L LED:WS2812B RGB12
 U 1 1 5E423CFF
 P 8975 5300
 F 0 "RGB12" H 9319 5346 50  0000 L CNN
 F 1 "WS2812B" H 9319 5255 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 5000 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 9025 5000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 4925 50  0001 L TNN
 	1    8975 5300
 	1    0    0    -1  
@@ -651,7 +593,7 @@ U 1 1 5E4467C3
 P 7850 5300
 F 0 "RGB11" H 8194 5346 50  0000 L CNN
 F 1 "WS2812B" H 8194 5255 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 5000 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 7900 5000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 4925 50  0001 L TNN
 	1    7850 5300
 	1    0    0    -1  
@@ -662,7 +604,7 @@ U 1 1 5E447748
 P 6750 5300
 F 0 "RGB10" H 7094 5346 50  0000 L CNN
 F 1 "WS2812B" H 7094 5255 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 5000 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 6800 5000 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 4925 50  0001 L TNN
 	1    6750 5300
 	1    0    0    -1  
@@ -673,7 +615,7 @@ U 1 1 5E447EA1
 P 6750 6125
 F 0 "RGB13" H 7094 6171 50  0000 L CNN
 F 1 "WS2812B" H 7094 6080 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6800 5825 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 6800 5825 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6850 5750 50  0001 L TNN
 	1    6750 6125
 	1    0    0    -1  
@@ -684,7 +626,7 @@ U 1 1 5E448748
 P 7850 6125
 F 0 "RGB14" H 8194 6171 50  0000 L CNN
 F 1 "WS2812B" H 8194 6080 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 5825 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 7900 5825 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 5750 50  0001 L TNN
 	1    7850 6125
 	1    0    0    -1  
@@ -695,7 +637,7 @@ U 1 1 5E448EFD
 P 8975 6125
 F 0 "RGB15" H 9319 6171 50  0000 L CNN
 F 1 "WS2812B" H 9319 6080 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 5825 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 9025 5825 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 5750 50  0001 L TNN
 	1    8975 6125
 	1    0    0    -1  
@@ -706,7 +648,7 @@ U 1 1 5E4496AF
 P 10000 6125
 F 0 "RGB16" H 10344 6171 50  0000 L CNN
 F 1 "WS2812B" H 10344 6080 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10050 5825 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 10050 5825 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10100 5750 50  0001 L TNN
 	1    10000 6125
 	1    0    0    -1  
@@ -726,7 +668,7 @@ U 1 1 5E3B6D41
 P 8975 4450
 F 0 "RGB9" H 9319 4496 50  0000 L CNN
 F 1 "WS2812B" H 9319 4405 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9025 4150 50  0001 L TNN
+F 2 "farewell_pcb:LED_WS2812B_SK6812_MINI-E_HYBRID" H 9025 4150 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9075 4075 50  0001 L TNN
 	1    8975 4450
 	1    0    0    -1  
@@ -845,8 +787,6 @@ F 3 "~" H 1275 4575 50  0001 C CNN
 	1    1275 4575
 	-1   0    0    -1  
 $EndComp
-Text GLabel 950  4050 0    50   Input ~ 0
-GND_MCU
 Text GLabel 950  3950 0    50   Input ~ 0
 E1B_MCU
 Text GLabel 950  3850 0    50   Input ~ 0
@@ -861,8 +801,6 @@ Text GLabel 950  3550 0    50   Input ~ 0
 COL1_MCU
 Text GLabel 950  3450 0    50   Input ~ 0
 COL0_MCU
-Text GLabel 950  4975 0    50   Input ~ 0
-GND_SW
 Text GLabel 950  4875 0    50   Input ~ 0
 E1B_SW
 Text GLabel 950  4775 0    50   Input ~ 0
@@ -903,31 +841,29 @@ Text GLabel 950  3350 0    50   Input ~ 0
 VCC_MCU
 Text GLabel 6550 750  0    50   Input ~ 0
 VCC_SW
-Text GLabel 1100 2250 0    50   Input ~ 0
+Text GLabel 1100 2550 0    50   Input ~ 0
 ADC1_MCU
-Text GLabel 1100 2450 0    50   Input ~ 0
+Text GLabel 1100 2650 0    50   Input ~ 0
 ADC2_MCU
-Text GLabel 1100 2750 0    50   Input ~ 0
+Text GLabel 2500 2750 2    50   Input ~ 0
 E1B_MCU
-Text GLabel 1050 1850 0    50   Input ~ 0
-GND_MCU
 Text GLabel 2500 1950 2    50   Input ~ 0
 VCC_MCU
-Text GLabel 2500 2050 2    50   Input ~ 0
+Text GLabel 1100 2350 0    50   Input ~ 0
 COL0_MCU
-Text GLabel 2500 2150 2    50   Input ~ 0
+Text GLabel 1100 2250 0    50   Input ~ 0
 COL1_MCU
-Text GLabel 2500 2250 2    50   Input ~ 0
+Text GLabel 2500 2150 2    50   Input ~ 0
 COL2_MCU
-Text GLabel 2500 2350 2    50   Input ~ 0
+Text GLabel 2500 2250 2    50   Input ~ 0
 E2A_MCU
-Text GLabel 2500 2450 2    50   Input ~ 0
+Text GLabel 2500 2350 2    50   Input ~ 0
 E2B_MCU
-Text GLabel 2500 2550 2    50   Input ~ 0
+Text GLabel 2500 2450 2    50   Input ~ 0
 ROW2_MCU
-Text GLabel 2500 2650 2    50   Input ~ 0
+Text GLabel 2500 2550 2    50   Input ~ 0
 ROW1_MCU
-Text GLabel 2500 2750 2    50   Input ~ 0
+Text GLabel 2500 2650 2    50   Input ~ 0
 ROW0_MCU
 Text GLabel 3275 4175 1    50   Input ~ 0
 COL0_SW
@@ -945,7 +881,7 @@ Text GLabel 3900 1350 1    50   Input ~ 0
 E1B_SW
 Text GLabel 4100 1350 1    50   Input ~ 0
 E1A_SW
-Text GLabel 1100 2650 0    50   Input ~ 0
+Text GLabel 1100 2750 0    50   Input ~ 0
 E1A_MCU
 Text GLabel 5450 1325 1    50   Input ~ 0
 E2A_SW
@@ -955,4 +891,105 @@ Text GLabel 6975 1425 0    50   Input ~ 0
 ADC2_SW
 Text GLabel 6975 1025 0    50   Input ~ 0
 ADC1_SW
+$Comp
+L power:GND #PWR0101
+U 1 1 5EBA68C6
+P 625 1850
+F 0 "#PWR0101" H 625 1600 50  0001 C CNN
+F 1 "GND" H 630 1677 50  0000 C CNN
+F 2 "" H 625 1850 50  0001 C CNN
+F 3 "" H 625 1850 50  0001 C CNN
+	1    625  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EBA7407
+P 950 4050
+F 0 "#PWR0102" H 950 3800 50  0001 C CNN
+F 1 "GND" H 955 3877 50  0000 C CNN
+F 2 "" H 950 4050 50  0001 C CNN
+F 3 "" H 950 4050 50  0001 C CNN
+	1    950  4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EBA9075
+P 5975 2675
+F 0 "#PWR0104" H 5975 2425 50  0001 C CNN
+F 1 "GND" H 5980 2502 50  0000 C CNN
+F 2 "" H 5975 2675 50  0001 C CNN
+F 3 "" H 5975 2675 50  0001 C CNN
+	1    5975 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5EBAAAB5
+P 3050 1525
+F 0 "#PWR0109" H 3050 1275 50  0001 C CNN
+F 1 "GND" H 3055 1352 50  0000 C CNN
+F 2 "" H 3050 1525 50  0001 C CNN
+F 3 "" H 3050 1525 50  0001 C CNN
+	1    3050 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	625  1850 1100 1850
+Wire Wire Line
+	2500 1850 2650 1850
+Wire Wire Line
+	2650 1850 2650 1525
+Wire Wire Line
+	4000 975  4250 975 
+Wire Wire Line
+	5350 925  5600 925 
+Wire Wire Line
+	6975 1125 6600 1125
+Wire Wire Line
+	6975 1525 6575 1525
+Wire Wire Line
+	5975 2675 6250 2675
+Wire Wire Line
+	2500 1750 2600 1750
+Wire Wire Line
+	2600 1750 2600 1450
+Wire Wire Line
+	2600 1450 3050 1450
+Wire Wire Line
+	3050 1450 3050 1525
+Connection ~ 3050 1525
+Text GLabel 950  4975 0    50   Input ~ 0
+GND_SW
+Text GLabel 4250 975  2    50   Input ~ 0
+GND_SW
+Text GLabel 5600 925  2    50   Input ~ 0
+GND_SW
+Text GLabel 6600 1125 0    50   Input ~ 0
+GND_SW
+Text GLabel 6575 1525 0    50   Input ~ 0
+GND_SW
+$Comp
+L Device:C_Small C1
+U 1 1 5EAD88E5
+P 2500 1550
+F 0 "C1" H 2592 1596 50  0000 L CNN
+F 1 "500uF" H 2592 1505 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2500 1550 50  0001 C CNN
+F 3 "~" H 2500 1550 50  0001 C CNN
+	1    2500 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5EAE86CF
+P 1000 2450
+F 0 "R1" V 804 2450 50  0000 C CNN
+F 1 "300O" V 895 2450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1000 2450 50  0001 C CNN
+F 3 "~" H 1000 2450 50  0001 C CNN
+	1    1000 2450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
