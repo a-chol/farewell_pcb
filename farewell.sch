@@ -19,7 +19,7 @@ U 1 1 5CA014D4
 P 3925 6675
 F 0 "MX2" H 4011 6892 60  0000 C CNN
 F 1 "MX-1U" H 4011 6818 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 3900 6650 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 3900 6650 60  0001 C CNN
 F 3 "" H 3900 6650 60  0001 C CNN
 	1    3925 6675
 	-1   0    0    1   
@@ -30,7 +30,7 @@ U 1 1 5CA01EDD
 P 4975 6675
 F 0 "MX3" H 5061 6892 60  0000 C CNN
 F 1 "MX-1U" H 5061 6818 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 4950 6650 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 4950 6650 60  0001 C CNN
 F 3 "" H 4950 6650 60  0001 C CNN
 	1    4975 6675
 	-1   0    0    1   
@@ -41,7 +41,7 @@ U 1 1 5CA06044
 P 3925 5800
 F 0 "MX5" H 4011 6017 60  0000 C CNN
 F 1 "MX-1U" H 4011 5943 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 3900 5775 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 3900 5775 60  0001 C CNN
 F 3 "" H 3900 5775 60  0001 C CNN
 	1    3925 5800
 	-1   0    0    1   
@@ -52,7 +52,7 @@ U 1 1 5CA06743
 P 4975 5800
 F 0 "MX6" H 5061 6017 60  0000 C CNN
 F 1 "MX-1U" H 5061 5943 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 4950 5775 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 4950 5775 60  0001 C CNN
 F 3 "" H 4950 5775 60  0001 C CNN
 	1    4975 5800
 	-1   0    0    1   
@@ -63,7 +63,7 @@ U 1 1 5CA07858
 P 2975 4800
 F 0 "MX7" H 3061 5017 60  0000 C CNN
 F 1 "MX-1U" H 3061 4943 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 2950 4775 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 2950 4775 60  0001 C CNN
 F 3 "" H 2950 4775 60  0001 C CNN
 	1    2975 4800
 	-1   0    0    1   
@@ -74,7 +74,7 @@ U 1 1 5CA0852F
 P 3925 4775
 F 0 "MX8" H 4011 4992 60  0000 C CNN
 F 1 "MX-1U" H 4011 4918 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 3900 4750 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 3900 4750 60  0001 C CNN
 F 3 "" H 3900 4750 60  0001 C CNN
 	1    3925 4775
 	-1   0    0    1   
@@ -85,7 +85,7 @@ U 1 1 5CA08E22
 P 4975 4750
 F 0 "MX9" H 5061 4967 60  0000 C CNN
 F 1 "MX-1U" H 5061 4893 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 4950 4725 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 4950 4725 60  0001 C CNN
 F 3 "" H 4950 4725 60  0001 C CNN
 	1    4975 4750
 	-1   0    0    1   
@@ -284,17 +284,6 @@ F 3 "~" H 900 2050 50  0001 C CNN
 	1    900  2050
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT1
-U 1 1 5CAA7D24
-P 2700 2050
-F 0 "EXT1" H 2780 2092 50  0000 L CNN
-F 1 "Conn_01x01" H 2780 2001 50  0000 R CNN
-F 2 "keyboard_parts:PIN_1" H 2700 2050 50  0001 C CNN
-F 3 "~" H 2700 2050 50  0001 C CNN
-	1    2700 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 6975 1725 0    50   Input ~ 0
 JOY_SW_1
 Text GLabel 6975 1825 0    50   Input ~ 0
@@ -306,23 +295,12 @@ JOY_SW_1
 Text GLabel 4225 4300 2    50   Input ~ 0
 JOY_SW_2
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5CB34881
-P 2850 1525
-F 0 "SW1" H 2850 1810 50  0000 C CNN
-F 1 "SW_Push" H 2850 1719 50  0000 C CNN
-F 2 "random-kb-part:PushButton_6x6mm_TH_Pretty" H 2850 1725 50  0001 C CNN
-F 3 "~" H 2850 1725 50  0001 C CNN
-	1    2850 1525
-	-1   0    0    1   
-$EndComp
-$Comp
 L keyboard-parts2:KEYSW MX4
 U 1 1 5CA0561D
 P 2975 5800
 F 0 "MX4" H 3061 6017 60  0000 C CNN
 F 1 "MX-1U" H 3061 5943 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 2950 5775 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 2950 5775 60  0001 C CNN
 F 3 "" H 2950 5775 60  0001 C CNN
 	1    2975 5800
 	-1   0    0    1   
@@ -349,7 +327,7 @@ U 1 1 5C9FFB86
 P 2975 6675
 F 0 "MX1" H 3061 6892 60  0000 C CNN
 F 1 "MX-1U" H 3061 6818 20  0000 C CNN
-F 2 "keebio:MX-Alps-Choc-1U-NoLED" H 2950 6650 60  0001 C CNN
+F 2 "farewell_pcb:MX-Alps-Choc-1U-NoLED-noprongs" H 2950 6650 60  0001 C CNN
 F 3 "" H 2950 6650 60  0001 C CNN
 	1    2975 6675
 	-1   0    0    1   
@@ -378,17 +356,6 @@ Wire Wire Line
 Connection ~ 5275 5800
 Wire Wire Line
 	5275 5800 5275 6675
-$Comp
-L promicro:ProMicro U1
-U 1 1 5CB5D06D
-P 1800 2400
-F 0 "U1" H 1800 3437 60  0000 C CNN
-F 1 "0" H 1800 3331 60  0000 C CNN
-F 2 "farewell_pcb:keebio_ArduinoProMicro-ZigZag" H 1900 1350 60  0001 C CNN
-F 3 "" H 1900 1350 60  0000 C CNN
-	1    1800 2400
-	1    0    0    -1  
-$EndComp
 $Comp
 L LED:WS2812B RGB1
 U 1 1 5E3B33A6
@@ -560,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 2075 6750 2075
 Connection ~ 6750 2075
-Text GLabel 2500 1450 1    50   Input ~ 0
+Text GLabel 2500 1050 1    50   Input ~ 0
 RGB_VCC
 Text GLabel 900  2450 0    50   Input ~ 0
 RGB_DI
@@ -743,128 +710,30 @@ Wire Wire Line
 Connection ~ 6250 5600
 Wire Wire Line
 	6250 5600 6250 6425
-$Comp
-L Connector_Generic:Conn_01x08 J1
-U 1 1 5E5A9470
-P 1150 3650
-F 0 "J1" H 1230 3642 50  0000 L CNN
-F 1 "Conn_01x08" H 1230 3551 50  0000 L CNN
-F 2 "farewell_pcb:keebio_Header-8-Pin-ZigZag" H 1150 3650 50  0001 C CNN
-F 3 "~" H 1150 3650 50  0001 C CNN
-	1    1150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J3
-U 1 1 5E5AAC74
-P 1275 3675
-F 0 "J3" H 1193 4092 50  0000 C CNN
-F 1 "Conn_01x06" H 1193 4001 50  0000 C CNN
-F 2 "farewell_pcb:keebio_Header-6-Pin-ZigZag" H 1275 3675 50  0001 C CNN
-F 3 "~" H 1275 3675 50  0001 C CNN
-	1    1275 3675
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J2
-U 1 1 5E5AF02E
-P 1150 4575
-F 0 "J2" H 1230 4567 50  0000 L CNN
-F 1 "Conn_01x08" V 1230 4476 50  0000 L CNN
-F 2 "farewell_pcb:keebio_Header-8-Pin-ZigZag" H 1150 4575 50  0001 C CNN
-F 3 "~" H 1150 4575 50  0001 C CNN
-	1    1150 4575
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J4
-U 1 1 5E5AF038
-P 1275 4575
-F 0 "J4" H 1193 4992 50  0000 C CNN
-F 1 "Conn_01x06" V 1193 4901 50  0000 C CNN
-F 2 "farewell_pcb:keebio_Header-6-Pin-ZigZag" H 1275 4575 50  0001 C CNN
-F 3 "~" H 1275 4575 50  0001 C CNN
-	1    1275 4575
-	-1   0    0    -1  
-$EndComp
-Text GLabel 950  3950 0    50   Input ~ 0
-E1B_MCU
-Text GLabel 950  3850 0    50   Input ~ 0
-E1A_MCU
-Text GLabel 950  3750 0    50   Input ~ 0
-ADC2_MCU
-Text GLabel 1475 3475 2    50   Input ~ 0
-COL2_MCU
-Text GLabel 950  3650 0    50   Input ~ 0
-ADC1_MCU
-Text GLabel 950  3550 0    50   Input ~ 0
-COL1_MCU
-Text GLabel 950  3450 0    50   Input ~ 0
-COL0_MCU
-Text GLabel 950  4875 0    50   Input ~ 0
-E1B_SW
-Text GLabel 950  4775 0    50   Input ~ 0
-E1A_SW
-Text GLabel 950  4675 0    50   Input ~ 0
-ADC2_SW
-Text GLabel 1475 4375 2    50   Input ~ 0
-COL2_SW
-Text GLabel 950  4575 0    50   Input ~ 0
-ADC1_SW
-Text GLabel 950  4475 0    50   Input ~ 0
-COL1_SW
-Text GLabel 950  4375 0    50   Input ~ 0
-COL0_SW
-Text GLabel 1475 4875 2    50   Input ~ 0
-ROW0_SW
-Text GLabel 1475 4775 2    50   Input ~ 0
-ROW1_SW
-Text GLabel 1475 4675 2    50   Input ~ 0
-ROW2_SW
-Text GLabel 1475 4575 2    50   Input ~ 0
-E2B_SW
-Text GLabel 1475 4475 2    50   Input ~ 0
-E2A_SW
-Text GLabel 950  4275 0    50   Input ~ 0
-VCC_SW
-Text GLabel 1475 3975 2    50   Input ~ 0
-ROW0_MCU
-Text GLabel 1475 3875 2    50   Input ~ 0
-ROW1_MCU
-Text GLabel 1475 3775 2    50   Input ~ 0
-ROW2_MCU
-Text GLabel 1475 3675 2    50   Input ~ 0
-E2B_MCU
-Text GLabel 1475 3575 2    50   Input ~ 0
-E2A_MCU
-Text GLabel 950  3350 0    50   Input ~ 0
-VCC_MCU
-Text GLabel 6550 750  0    50   Input ~ 0
-VCC_SW
-Text GLabel 1100 2550 0    50   Input ~ 0
-ADC1_MCU
-Text GLabel 1100 2650 0    50   Input ~ 0
-ADC2_MCU
 Text GLabel 2500 2750 2    50   Input ~ 0
-E1B_MCU
-Text GLabel 2500 1950 2    50   Input ~ 0
-VCC_MCU
-Text GLabel 1100 2350 0    50   Input ~ 0
-COL0_MCU
-Text GLabel 1100 2250 0    50   Input ~ 0
-COL1_MCU
+E1B_SW
+Text GLabel 1100 2750 0    50   Input ~ 0
+E1A_SW
+Text GLabel 1100 2650 0    50   Input ~ 0
+ADC2_SW
 Text GLabel 2500 2150 2    50   Input ~ 0
-COL2_MCU
-Text GLabel 2500 2250 2    50   Input ~ 0
-E2A_MCU
-Text GLabel 2500 2350 2    50   Input ~ 0
-E2B_MCU
-Text GLabel 2500 2450 2    50   Input ~ 0
-ROW2_MCU
-Text GLabel 2500 2550 2    50   Input ~ 0
-ROW1_MCU
+COL2_SW
+Text GLabel 1100 2550 0    50   Input ~ 0
+ADC1_SW
+Text GLabel 1100 2250 0    50   Input ~ 0
+COL1_SW
+Text GLabel 1100 2350 0    50   Input ~ 0
+COL0_SW
 Text GLabel 2500 2650 2    50   Input ~ 0
-ROW0_MCU
+ROW0_SW
+Text GLabel 2500 2550 2    50   Input ~ 0
+ROW1_SW
+Text GLabel 2500 2450 2    50   Input ~ 0
+ROW2_SW
+Text GLabel 2500 2350 2    50   Input ~ 0
+E2B_SW
+Text GLabel 2500 2250 2    50   Input ~ 0
+E2A_SW
 Text GLabel 3275 4175 1    50   Input ~ 0
 COL0_SW
 Text GLabel 4225 4025 1    50   Input ~ 0
@@ -881,8 +750,6 @@ Text GLabel 3900 1350 1    50   Input ~ 0
 E1B_SW
 Text GLabel 4100 1350 1    50   Input ~ 0
 E1A_SW
-Text GLabel 1100 2750 0    50   Input ~ 0
-E1A_MCU
 Text GLabel 5450 1325 1    50   Input ~ 0
 E2A_SW
 Text GLabel 5250 1325 1    50   Input ~ 0
@@ -900,17 +767,6 @@ F 1 "GND" H 630 1677 50  0000 C CNN
 F 2 "" H 625 1850 50  0001 C CNN
 F 3 "" H 625 1850 50  0001 C CNN
 	1    625  1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5EBA7407
-P 950 4050
-F 0 "#PWR0102" H 950 3800 50  0001 C CNN
-F 1 "GND" H 955 3877 50  0000 C CNN
-F 2 "" H 950 4050 50  0001 C CNN
-F 3 "" H 950 4050 50  0001 C CNN
-	1    950  4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -936,19 +792,9 @@ F 3 "" H 3050 1525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	625  1850 1100 1850
-Wire Wire Line
-	2500 1850 2650 1850
-Wire Wire Line
-	2650 1850 2650 1525
-Wire Wire Line
 	4000 975  4250 975 
 Wire Wire Line
 	5350 925  5600 925 
-Wire Wire Line
-	6975 1125 6600 1125
-Wire Wire Line
-	6975 1525 6575 1525
 Wire Wire Line
 	5975 2675 6250 2675
 Wire Wire Line
@@ -959,28 +805,6 @@ Wire Wire Line
 	2600 1450 3050 1450
 Wire Wire Line
 	3050 1450 3050 1525
-Connection ~ 3050 1525
-Text GLabel 950  4975 0    50   Input ~ 0
-GND_SW
-Text GLabel 4250 975  2    50   Input ~ 0
-GND_SW
-Text GLabel 5600 925  2    50   Input ~ 0
-GND_SW
-Text GLabel 6600 1125 0    50   Input ~ 0
-GND_SW
-Text GLabel 6575 1525 0    50   Input ~ 0
-GND_SW
-$Comp
-L Device:C_Small C1
-U 1 1 5EAD88E5
-P 2500 1550
-F 0 "C1" H 2592 1596 50  0000 L CNN
-F 1 "500uF" H 2592 1505 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2500 1550 50  0001 C CNN
-F 3 "~" H 2500 1550 50  0001 C CNN
-	1    2500 1550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5EAE86CF
@@ -991,5 +815,118 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1000 2450 
 F 3 "~" H 1000 2450 50  0001 C CNN
 	1    1000 2450
 	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EC83927
+P 4250 975
+F 0 "#PWR0102" H 4250 725 50  0001 C CNN
+F 1 "GND" H 4255 802 50  0000 C CNN
+F 2 "" H 4250 975 50  0001 C CNN
+F 3 "" H 4250 975 50  0001 C CNN
+	1    4250 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EC8B007
+P 5600 925
+F 0 "#PWR0103" H 5600 675 50  0001 C CNN
+F 1 "GND" H 5605 752 50  0000 C CNN
+F 2 "" H 5600 925 50  0001 C CNN
+F 3 "" H 5600 925 50  0001 C CNN
+	1    5600 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EC9213A
+P 6400 1125
+F 0 "#PWR0105" H 6400 875 50  0001 C CNN
+F 1 "GND" H 6405 952 50  0000 C CNN
+F 2 "" H 6400 1125 50  0001 C CNN
+F 3 "" H 6400 1125 50  0001 C CNN
+	1    6400 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EC9C6A5
+P 6400 1525
+F 0 "#PWR0106" H 6400 1275 50  0001 C CNN
+F 1 "GND" H 6405 1352 50  0000 C CNN
+F 2 "" H 6400 1525 50  0001 C CNN
+F 3 "" H 6400 1525 50  0001 C CNN
+	1    6400 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1125 6975 1125
+Wire Wire Line
+	6400 1525 6975 1525
+$Comp
+L power:VCC #PWR0107
+U 1 1 5ECA82C1
+P 3100 1950
+F 0 "#PWR0107" H 3100 1800 50  0001 C CNN
+F 1 "VCC" H 3117 2123 50  0000 C CNN
+F 2 "" H 3100 1950 50  0001 C CNN
+F 3 "" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1950 3100 1950
+$Comp
+L power:VCC #PWR0108
+U 1 1 5ECAD36F
+P 6550 750
+F 0 "#PWR0108" H 6550 600 50  0001 C CNN
+F 1 "VCC" H 6567 923 50  0000 C CNN
+F 2 "" H 6550 750 50  0001 C CNN
+F 3 "" H 6550 750 50  0001 C CNN
+	1    6550 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 750 
+Wire Wire Line
+	625  1850 1100 1850
+$Comp
+L promicro:ProMicro U1
+U 1 1 5CB5D06D
+P 1800 2400
+F 0 "U1" H 1800 3437 60  0000 C CNN
+F 1 "0" H 1800 3331 60  0000 C CNN
+F 2 "farewell_pcb:keebio_ArduinoProMicro-ZigZag" H 1900 1350 60  0001 C CNN
+F 3 "" H 1900 1350 60  0000 C CNN
+	1    1800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5EAD88E5
+P 2600 1275
+F 0 "C1" H 2692 1321 50  0000 L CNN
+F 1 "500uF" H 2692 1230 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2600 1275 50  0001 C CNN
+F 3 "~" H 2600 1275 50  0001 C CNN
+	1    2600 1275
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 1650 2500 1275
+Connection ~ 2500 1275
+Wire Wire Line
+	2500 1275 2500 1050
+$Comp
+L power:GND #PWR0110
+U 1 1 5ECF7ACB
+P 2700 1275
+F 0 "#PWR0110" H 2700 1025 50  0001 C CNN
+F 1 "GND" H 2705 1102 50  0000 C CNN
+F 2 "" H 2700 1275 50  0001 C CNN
+F 3 "" H 2700 1275 50  0001 C CNN
+	1    2700 1275
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

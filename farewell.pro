@@ -1,4 +1,4 @@
-update=5/2/2020 11:10:14 AM
+update=5/22/2020 3:52:58 PM
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Net-(C1-Pad2)
+Clearance=0.2
+TrackWidth=0.35
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=RGB_VCC
 Clearance=0.2
 TrackWidth=0.35
